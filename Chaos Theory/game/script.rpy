@@ -53,6 +53,7 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
+    #image bg schoolyard = "schoolyard.png"
     scene bg schoolyard
 
     # This shows a character sprite. A placeholder is used, but you can
@@ -77,33 +78,38 @@ label start:
     
     St "We have to follow fire emergency procedures and make sure everyone is safe first, okay? Sorry for holding you up for your last class, but I still have to follow safety rules to keep my job."
 
-    show Sam embarrassed
+    image Sam neutral = "Sam_neutral.png"
+    show Sam neutral
     
     s "I'm wondering how I got myself in a mess like this..."
 
     s "All I'll say is that it was just another of my dumb ideas."
     
-    show Sam embarrassed
+    hide Sam neutral
     with dissolve
     with fade
     
+    #image bg principals-office = "principalsoffice.png"
     scene bg principals-office
     
+    #image MrJager angry = "MrJager_angry.png"
     show MrJager angry at right
     
     MJ "Breaking a fire alarm and setting a false alarm off, on your first day? You're already making trouble!"
     
-    
+    #image Sam surprised = "Sam_surprised.png"
     show Sam surprised at left
     
     s "Mr.Jager! What are you doing here?!"
     
     MJ "I'm a transfered here to look after punks from junior high moving here like you! I got a promotion here."
-
+    
+    #image Sam angry = "Sam_angry.png"
     show Sam angry
     
     s "Tch...I'm telling you it was an accident that I broke it!"
     
+    #image MrsCole talking = "MrsCole_talking.png"
     show MrsCole talking
     
     MC "Regardless of whether it was an accident or not, you still broke a fire alarm and you must understand there are consequences for your actions Mr.Moore."
@@ -118,12 +124,16 @@ label start:
     
     MC "Hopefully you will stay out of trouble. The Semester doesn't start until two weeks from now, but you're still required to be here and discipline yourself."
     
-    show Sam neutral
+    hide Sam neutral
+    hide MrsCole talking
+    hide MrJager angry
     with dissolve
     with fade
     
+    #image bg Sams-house = "samshouse.png"
     scene bg Sams-house
     
+    #image MrMoore neutral = "MrMoore_neutral.png"
     show MrMoore neutral
     
     MM "..."
@@ -212,6 +222,7 @@ label start:
         with dissolve
         with fade
     
+        #image Diana neutral = "Diana_neutral.png"
         show MrMoore neutral at left
         show Sam neutral at right
         show Diana neutral
@@ -224,6 +235,7 @@ label start:
         
         MD "Pleased to meet you, Young Master Sam."
         
+        #image Sam blushing = "Sam_blushing.png"
         show Sam blushing at right
         
         s "Uhh..Same, I guess.."
@@ -234,6 +246,7 @@ label start:
         
         s "....Okay.."
         
+        #image Diana happy = "Diana_happy.png"
         show Diana happy
         
         MD "I hope we get along together!"
@@ -254,12 +267,13 @@ label start:
         
         s "R-right."
         
-    show Sam blushing at right
-    show MrMoore neutral at left
-    show Diana happy
+    hide Sam blushing at right
+    hide MrMoore neutral at left
+    hide Diana happy
     with dissolve
     with fade
     
+    #image bg Sams-house-inside = "samshouseinside.png"
     scene bg Sams-house-inside
         
     # This ends the game.
