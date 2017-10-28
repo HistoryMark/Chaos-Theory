@@ -13,37 +13,11 @@ define c = Character("Cynthia")
 
 define b = Character("Bella")
 
-# Supporting Characters
+# Unknown Characters
 
-define MJ = Character("Mr.Jager")
+define sfs = Character("A Female Student")
 
-define MC = Character("Mrs.Cole")
-
-define MM = Character("Mr.Moore")
-
-define MD = Character("Diana")
-
-define MV = Character("Violet")
-
-# Stock Characters
-
-define St = Character ("A Teacher")
-
-define Sms1 = Character ("A Male Student")
-
-define Sms2 = Character ("Another Male Student")
-
-define Sfs1 = Character ("A Female Student")
-
-define Sfs2 = Character ("Another Female Student")
-
-define Yw = Character ("Young Woman")
-
-define Ym = Character ("Young man")
-
-define Ow = Character ("Old woman")
-
-define Om = Character ("Old man")
+define sms = Character("A Male Student")
 
 # The game starts here.
 
@@ -62,220 +36,155 @@ label start:
 
     # These display lines of dialogue.
 
-    St "Everyone here alright? Okay, good. Now roll call!"
+    "It was an ordinary day, in this ordinarily boring life as a high school student..."
     
-    Sms1 "Is there an actual fire this time? The sprinklers went off."
+    #image Bella neutral = "Bella_neutral.png"
+    show Bella neutral
     
-    St "No, the fire alarm malfunctioned and turned on the sprinklers."
+    sfs "Come on, Sam! We'll be late for our first day of high school!"
     
-    Sms2 "I heard someone broke an alarm and set it off."
-    
-    Sfs1 "Well thanks to that idiot, we're all soaked and have to sit out here."
-    
-    Sfs2 "There's no class for a while, why are you mad?"
-    
-    Sfs1 "Because I want to leave this stupid place already, but i'm held up here by having the fire department look at a broken fire alarm set off by one of the many idiots in this school."
-    
-    St "We have to follow fire emergency procedures and make sure everyone is safe first, okay? Sorry for holding you up for your last class, but I still have to follow safety rules to keep my job."
-
     image Sam neutral = "Sam_neutral.png"
-    show Sam neutral
+    show Sam neutral at right
     
-    s "I'm wondering how I got myself in a mess like this..."
-
-    s "All I'll say is that it was just another of my dumb ideas."
+    s "Well, we're already going to be late with that train coming by, so why bother rushing?"
+    
+    sfs "What train?"
+    
+    "The lights flash and the gates lower on the railroad crossing as the horn of the train can be heard."
+    
+    b "Oh, really? Just our luck!"
+    
+    s "You seem really out of it today, Bella. Are you getting enough sleep?"
+    
+    b "Er..Okay, so I only slept 4 hours last night."
+                                                     
+    s "For what? School didn't even start yet!"
+                             
+    b "I was binge watching the entire night and lost track of time!"
+                                             
+    s "Well don't bother rushing anyway, because you'll just end up sleeping in class anyway."
+                                                     
+    b "I don't sleep in class! I just put my head down from time to time!"
+                                                                          
+    s "Sure, might as well bring a pillow for those small moments."
+                                                                   
+    "This may be my first morning on the first day of high school, but this is how every morning goes during school."
+    
+    "This is the life of this ordinary kid, Sam Moore. I'm 15, a freshman in high school, to which i'm not as excited as my friend is."                                                                                                                 
+    
+    b "Oh, shut up, Sam! Like you even pay attention at all in class while you're wide awake!"                                                                                                                                   
+    
+    s "Ack..."
+    
+    "This scatter-brained girl is my childhood friend, Bella. She's the same age as I am."
+                                                                  
+    "We've lived in the same neighborhood since we were in elementary school and have been inseparable ever since."
+    
+    "Despite how clumsy and bad at time-management she is, she makes up for it in resilience."
+        
+    "She works overly hard in school, as well has juggling a job and club activities."
+        
+    "She's not exactly a genius, but she does study and work hard. I guess that's why she's a honor student and I'm not."
+    
+    b "You're not excited for your first day of high school at all, Sam?"
+                                                                         
+    s "Why should I? We're forced to attend school by law, and I don't feel motivated to work with a bunch of idiots in a 'class' that need to be babysat."
+                                                                                                                                                           
+    b "Don't say it like that! Yeah, some people don't care about school, but I think you guys just don't understand."
+    
+    s "Understand what? That school is just a fancy teenager day care?"
+    
+    b "It's a place of learning and growth! There's so much you can learn in school other than testing the teachers' patience!"
+    
+    s "Really?"
+    
+    b "It's a place where you learn about yourself and grow as a person, a place to learn skills for a bright future!"
+    
+    "Bella' voice grows louder as she continues of her speech about school"
+    
+    b "It's a place to celebrate and live life while we're young!"
+    
+    s "Well, that was an overly dramatic way to put it."
+    
+    b "It's true though, we only experience these 4 years once!"
+    
+    s "No, it's what we see in another 4 years in college and then for 50 years in a job."
+    
+    s "Just sitting, 'working', and being told to not break anything."
+    
+    b "There's more to school than just that! Also, it's just what you make of it, Sam. Speaking of which, are you joining any clubs this year?"
+    
+    s "No, and I'd like to keep it that way. I'll just spend my 8 hours in the prison called 'school' and take my leave."
+    
+    b "Oh come on! That's no fun at all! You used to love to play and do all sorts of things in middle school!"
+    
+    s "Yeah, but it was only to get into trouble. I'd rather just keep to myself rather than have some people yell at me now."
+    
+    b "I won't take 'no' for an answer! Come with me after school, I'll take you to go see some clubs."
+    
+    b "Well, we're here at the schoolyard! I'm bummed we don't have any classes together, but I still want to see you afterschool, okay? I'll see you then!"
+    
+    hide Bella neutral
+    
+    "Before I can protest, she runs off to her classes."
+    
+    s "Ack...Okay, whatever, i'll indulge her."
+    
+    s "Time for another day in school..."
     
     hide Sam neutral
     with dissolve
     with fade
     
-    #image bg principals-office = "principalsoffice.png"
-    scene bg principals-office
-    
-    #image MrJager angry = "MrJager_angry.png"
-    show MrJager angry at right
-    
-    MJ "Breaking a fire alarm and setting a false alarm off, on your first day? You're already making trouble!"
-    
-    #image Sam surprised = "Sam_surprised.png"
-    show Sam surprised at left
-    
-    s "Mr.Jager! What are you doing here?!"
-    
-    MJ "I'm a transfered here to look after punks from junior high moving here like you! I got a promotion here."
-    
-    #image Sam angry = "Sam_angry.png"
-    show Sam angry
-    
-    s "Tch...I'm telling you it was an accident that I broke it!"
-    
-    #image MrsCole talking = "MrsCole_talking.png"
-    show MrsCole talking
-    
-    MC "Regardless of whether it was an accident or not, you still broke a fire alarm and you must understand there are consequences for your actions Mr.Moore."
+    #image bg classroom = "clasroom.png"
+    scene bg classroom
     
     show Sam neutral
     
-    s "Yeah, yeah, so what? Detention? Suspension? What do I have to sit through?"
+    s "Phew, finally the teacher stopped droning on and on about the syllabus. I know she's trying to clear with eveything, but there's always the idiots who will ask the same questions."
     
-    MC "Tampering with emergency equipment and creating a false alarm is a serious offense against the school and the fire department. You could also be charged with a misdemeanor, but you're still a minor."
+    "With that, the first school day ended with seemingly endless classes."
     
-    MC "For now, I will document it as an accident to get you away from that okay? I have contacted your parents to speak with us and take you home."
+    "As I was about to leave the classroom to go meet with Bella, I catch the glare of a student with a pained look on his face right at the doorway."
     
-    MC "Hopefully you will stay out of trouble. The Semester doesn't start until two weeks from now, but you're still required to be here and discipline yourself."
+    image Ari neutral = "Ari_neutral.png"
+    show Ari neutral at right
+    
+    sms "..."
+    
+    s "Umm...Are you okay?."
+    
+    sms "...Uhh...No, i'm fine. Sorry to make you worry, I guess it's just my natural facial expression. Please excuse me..."
+    
+    hide Ari neutral 
+    
+    "He leaves the room in a quiet fashion."
+    
+    s "...Okay, then..."
     
     hide Sam neutral
-    hide MrsCole talking
-    hide MrJager angry
     with dissolve
     with fade
     
-    #image bg Sams-house = "samshouse.png"
-    scene bg Sams-house
+    #image bg hallway = "hallway.png"
+    scene bg hallway
+    show Sam neutral
+    show Bella neutral at left
     
-    #image MrMoore neutral = "MrMoore_neutral.png"
-    show MrMoore neutral
+    "I meet up with Bella in the hallway to see her waiting for me outside my classroom."
     
-    MM "..."
+    s "You're really serious with forcing me to join a club aren't you?"
     
-    show Sam angry at right
+    b "Come on, you've got the time and energy! Let's get you doing something!
     
-    s "..."
-    
-    MM "Why did you do it?"
-    
-    menu:
-        
-        "It was an accident!":
-            jump lie
-            
-        "It was just a dumb idea that didn't work.":
-            jump truth
-    
-    default trueSam1 = False
-    
-    label lie:
-    
-    $ trueSam1 = False
-    
-    MM "Couldn't you have avoided the accident completely? Mr.Jager told me you were messing around in the halls and broke the alarm playing around."
-    
-    s "..."
-    
-    jump trouble
-    
-    label truth:
-        
-    $ trueSam1 = True
-    
-    MM "What were you trying to do?"
-    
-    s "Only you came so it didn't work."
-    
-    MM "..."
-    
-    jump trouble
-   
-    label trouble:
-    
-    MM "Let me rephrase the question, I know you're smart enough to stay out of trouble, but why do you make trouble anyway?"
-    
-    s "..."
-    
-    if trueSam1:
-        
-        s "Why didn't Mom come with you?"
-        
-        MM "You know she's always busy at work, i'm lucky enough to be able to pick you up myself since I have the day off today. She's working abroad right now and won't be back for a couple months."
-        
-        s "A couple months? When is she actually coming home?"
-        
-        MM "I think she might be home by Halloween, but I'm always around since I work in town."
-        
-        s "I had to wait 3 whole months of my summer for her to come back only to tell me, on my birthday, she couldn't make it by her secretary? I haven't seen her since your wedding and now you're telling me I have to wait another 3 months or so for her?"
-        
-        MM "Why are you so worried? I'm here for you."
-        
-        s "I'll be honest, Dad, I'm trying to get close to you, but you're still a stranger to me. Albert is the only person other than Mom in the house I actually know, and even he doesn't show up most of the time."
-        
-        MM "What are you saying?"
-        
-        s "I feel alone and empty in that house! I hate it there! I miss Mom, okay? I do stupid shit in school because that place sucks and just as boring as hell without doing any of it!"
-        
-        MM "...I'm sorry. I know I just came into your life and I don't know much about your problems, but I'll try to make it up to you okay?"
-        
-        s "Apologizing for nothing is the only thing you can do? I guess i'll say i'm sorry for cursing at you, but I just needed to vent."
-        
-        MM "..."
-        
-        jump home
-        
-    else:
-        
-        MM "I guess you just like messing around...Here we are, back to the house."
-        
-        jump home
-        
-    label home:
-        show MrMoore neutral
-        show Sam angry
-        with dissolve
-        with fade
-    
-        #image Diana neutral = "Diana_neutral.png"
-        show MrMoore neutral at left
-        show Sam neutral at right
-        show Diana neutral
-        
-        Yw "Welcome home, Master Moore and Young Master."
-        
-        "She bows to express courtesy..."
-        
-        MM "Sam, I know from Albert you have a knack to kick our maids out of insanity, but please be kind to our new maid, Diana. She's 21 and she's studying as an undergrad in Hospitality and Management in college outside of working as a maid."
-        
-        MD "Pleased to meet you, Young Master Sam."
-        
-        #image Sam blushing = "Sam_blushing.png"
-        show Sam blushing at right
-        
-        s "Uhh..Same, I guess.."
-        
-        s "(Since when did Mom hire such a cute maid?!?)"
-        
-        MM "I met her at a networking convention for my company and decided to hire her myself, even though your Mother wanted to hire one herself. Now please be nice with her, Sam, she's got school work aside with her housekeeping, so don't cause trouble, okay? I'm begging you."
-        
-        s "....Okay.."
-        
-        #image Diana happy = "Diana_happy.png"
-        show Diana happy
-        
-        MD "I hope we get along together!"
-        
-        "She smiles sweetly at me, i'm confused by her beauty to keep my cool."
-        
-        s "Uhh..Yeah, okay. (I say with a half smile)"
-        
-        MD "You're blushing, young master."
-        
-        "She lets out a small chuckle"
-        
-        s "Ahh! Okay, that's enough, just stay out of my way and i'll stay out of yours! You know how to flirt and kiss up to your boss, i'll give you that!"
-        
-        MD "As you wish, young master. I just want to address you in a respectable manner."
-        
-        "She bows and smiles sweetly at me again."
-        
-        s "R-right."
-        
-    hide Sam blushing at right
-    hide MrMoore neutral at left
-    hide Diana happy
+    "Bella takes my hand to go look at the various clubs in school."   
+       
     with dissolve
-    with fade
     
-    #image bg Sams-house-inside = "samshouseinside.png"
-    scene bg Sams-house-inside
-        
+    b "How about the science club? You get to do cool experiments and show off your research!"
+                                                                                              
+    "                                                                                          
+    
     # This ends the game.
 
     return
