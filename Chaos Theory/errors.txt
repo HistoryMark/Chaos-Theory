@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 226: Line is indented, but the preceding image statement statement does not expect a block. Please check this line's indentation.
-    show MrMoore neutral at left
-    ^
+File "game/script.rpy", line 182: expected statement.
+    else:
+        ^
 
 Ren'Py Version: Ren'Py 6.99.12.4.2187
