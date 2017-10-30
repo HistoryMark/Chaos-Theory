@@ -126,7 +126,7 @@ label start:
     
     s "No, and I'd like to keep it that way. I'll just spend my 8 hours in the prison called 'school' and take my leave."
     
-    b "Oh come on! That's no fun at all! You used to love to play and do all sorts of things in middle school!"
+    b "Oh come on! That's no fun at all! You used to love to play and do all sorts of things in junior high!"
     
     s "Yeah, but it was only to get into trouble. I'd rather just keep to myself rather than have some people yell at me now."
     
@@ -207,7 +207,7 @@ label start:
 
     b "How about the science club? You get to do cool experiments and show off your research!"
                                                                                               
-    s "I would have to do research for a project of my choice about 'scientific principles that broadens thehorizons', huh?"
+    s "I would have to do research for a project of my choice about 'principles that broadens the horizons', huh?"
        
     "I try to read the club poster with enthusiasm, but it only came out sarcastically."
                                                                                         
@@ -270,7 +270,7 @@ label start:
     
     "I say with a hint of sarcasm, as it's the only attitude I have over this."
     
-    b "However, my teacher said she can supervise a small group and reserve a spare room for our group if we get at least 4 people for our informal group."
+    b "However, my teacher said she can supervise a small study group and reserve a spare room for our group if we get at least 4 people for our informal group."
     
     b "You would be fine doing something with me and 2 other friends? I know you obviously don't want to do something with a bunch of people you don't know or will have trouble getting to know."
     
@@ -290,9 +290,7 @@ label start:
     
     "Bella happily skips away."
     
-    s "I guess I just have to find one person to join rather than have to work with 8 other people I don't know."
-    
-    "As always, Bella comes through with something that works for us. It works too well that it shows she knows me too well..."
+    s "I guess I just have to deal with 2 strangers rather than have to work with 8 other people I don't know."
     
     "With that settled, I head home pondering about recruiting another student for our group."
     
@@ -324,15 +322,7 @@ label start:
     
     "He first stares at me with a bewildered look."
     
-    sms "...Sorry, I wasn't paying attention and I dropped everything. Thanks."
-    
-    s "Yeah, sure..."
-    
-    sms "...I'll be direct...Why did you help me?"
-    
-    "He replies with in a quiet and reserved voice...I'm taken aback by his question."
-    
-    sms "I could handle this by myself..."
+    sms "...I could handle this by myself..."
     
     show Sam talking
     
@@ -342,20 +332,30 @@ label start:
     
     s "You look down in the dumps, man. Here let me help you, charity case."
     
-    sms "...Sorry..."
+    sms "Just leave me be, i'm fine, really..."
     
     show Sam neutral
     
-    s "Don't apologize, you didn't do anything wrong. I'm just an idiot helping you because you look like you needed help."
+    s "Just let me help you, okay? I can tell with that face, you feel really down today, and you could use some help."
+    
+    s "Here, i'll carry some of these books for you and just give me a smile, okay? I don't like seeing sad people."
+    
+    "I fall over trying to lift the books, misjudging their weight."
+    
+    s "Hehehe...Sorry, these books are heavier than I expected! I bet you've got quite some strength to be able to carry these by yourself, or that i'm just pathetically weak. Probably the latter."
     
     image Ari neutral = "Ari_neutral.png"
     show Ari neutral at right
     
-    "His sad stare livens up to a half-smile, showing a true form of gratitude."
+    "His sad stare livens up to a half-smile..."
+    
+    sms "T-thank you...Here, I will help you in assisting me."
+    
+    "He takes half of the books and carries them entrusting me with the other half."
     
     s "Anyway, I saw you earlier, you're from the same class from me, Ari, wasn't it?"
     
-    a "Yeah...I'm sorry i'm not good with names and I didn't catch yours."
+    a "Yeah...I'm sorry, i'm not good with names and I didn't catch yours."
     
     s "Well, my name's Sam. I'm 15 and a freshman at our school, you're a transfer student right?"
     
@@ -363,17 +363,19 @@ label start:
     
     s "You're also a junior if I remember right, you're stuck in that class with me because you need that to graduate right?"
     
-    a "I don't understand why some of those stupid classes are mandatory to graduate, but yeah, that's about right. I'm also the same age as you."
+    a " Indeed."
     
     s "Why are you carrying all these books anyway? It's only the beginning of the first half of the school year! These books are really frickin' heavy! Also, you're 15 and a junior already?"
     
-    a "Yes, I started school early. Also, those books are my college textbooks for my dual-credit classes, I was going to read ahead for class."
+    a "Yes, I started school early. Also, those books are my college textbooks for my dual-credit classes, I was taking initiative to read ahead for class."
 
-    s "Huh, you're quite an honors student, huh? Sorry, i'm not too impressive as a student myself."
+    s "You're quite an honors student, huh? Sorry, i'm not too impressive as a student myself."
 
     s "Here, i'll carry these for you anyway. How far do you live from here?"
     
-    a "Just three blocks from here. Here, i'll carry half of the books so it's not too heavy for you."
+    a "Just three blocks from here. Thank you again for helping me. I apologize that my words do not express all of my gratitude. Here, i'll offer you some monetary reward for your deeds."
+    
+    s "No, it's alright. I wanted to help a fellow today. Seeing you cheer up a bit is enough. It feels good to help. Hehehe."
     
     "I walk with Ari to his house and find that he only lives a couple blocks away from my house."
     
@@ -384,12 +386,12 @@ label start:
     #image Sam happy = "Sam_happy.png"
     show Sam happy
     
-    s "Jeez, I guess you're really getting some serious exercise everyday. I still have trouble lifting two of these huge books!"
+    s "Jeez, I guess you're really getting some serious exercise everyday. I still have trouble lifting half of these huge books!"
     
     #image Ari happy = "Ari_happy.png"
     show Ari happy at right
     
-    "I let out a short chuckle, Ari's half-smile becomes a full smile to the point where he starts to chuckle too."
+    "I let out a short chuckle, Ari's starts to chuckle too."
 
     show Ari neutral at right
     show Sam neutral
@@ -398,11 +400,11 @@ label start:
 
     s "So, how are you liking the city? It's really crowded, but it has its charms I would say."
     
-    a "Yeah, it's nice, but it feels lonesome."
+    a "I would agree with you with the fact that it is charming, but it feels lonesome sometimes."
 
     s "What would make you say that?"
 
-    a "I live with only my aunt here and she's a nurse, so she's at work pretty much all the time. My parents are abroad."
+    a "I reside in the city with my aunt as my only companion and guardian, but she's occupied with work frequently. My parents are abroad."
 
     s "Oh...I live with my family here, but I never see my parents much because they're working, so I guess we kinda have that in common."
 
@@ -412,46 +414,46 @@ label start:
 
     s "You plan to be some professional like a lawyer or doctor?"
 
-    a "Um...Yeah, i'm looking to go become a surgeon or specialist in the medical field."
+    a "I aspire to be a profesional surgeon as my family hopes me to be."
 
     s "It's hard for me to find motivation to even get up for school. I'll probably just end up working at a bar, or shop, but I don't see that much as a problem. I just don't see myself having much potential."
 
-    a "...Don't say that. There's probably something you're good and passionate at, you just have to find it and work on it."
+    a " There's probably something you are proficient and passionate about, you just have to find it and work hard. Everyone has limitless potential and anything can change."
 
     s "What, you're passionate about working with syringes and scalpels?"
 
-    a "No, I want to be able to help people. It's not about the skills or the work when it comes to it. It's what you want to be able to give to the world."
+    a "No, I want to be able to help people. It's not about the skills or the work that matters, rather it is the drive to achieve a goal and fulfill your life with a purpose."
 
     "I could only stand mute, without a response."
 
-    a "Sorry, for mullilng for sentimental things, it must get boring. I know it sounds cheesy, but I think it's the truth."
+    a "Sorry, I know it sounds rather cliche, but I think it is the truth. I know it would be dreadful working over 50 years with an occupation you hate, and I would like to live through those 50 years of work on my terms, doing what I love doing."
 
-    s "No, man it's fine. In fact, it's cool you can talk about these things so freely."
+    s "No, man it's fine. In fact, it's cool you see things that way."
 
-    a "Oh, i'm usually quiet and shy, I don't know how I can just open myself up to people sometimes."
+    a "You humble me with your praise..."
 
-    s "It's all good, dude. Man, I don't even know what to say, or even do with my life. You have a clearer idea of your life."
+    s "Man, I don't even know what to say, or even do with my life. You have a clearer idea of your life."
 
-    a "You're a nice guy, Sam. You'll have a bright future ahead of you. You were brave enough to help me, who was just a stranger to you not long, you could do even more."
+    a "You're a good guy, Sam. You will have a bright future ahead of you. You were brave enough to help me, who was just a stranger to you not long, you could do even more."
 
-    s "Heh, thanks, man."
+    s "Heh, thanks, man. I appreciate the encouragement at least."
 
-    a "Oh, here we are. This is my house. Thanks for helping me carry my books, and helping me get up I guess.."
+    a "Oh, here we are. This is my house. Thanks for helping me carry my books...You helped me in more ways than one."
 
-    s "No problem, I didn't have anything better to do."
+    s "No problem, I didn't have anything better to do and I don't think I did that much. Hehehe..."
 
-    "I was preoccupied with helping Ari, I forgot about finding someone for Bella's group."
+    "I was preoccupied with helping Ari, I almost forgot about finding someone for Bella's group."
 
     s "Hey, Ari, are you in any clubs or do you know anyone who's free for one? I need another person for my friends' group."
 
-    a "No, I don't know anyone from school, but you I guess. What is it that you guys plan to do?"
+    a "No, I do not know anyone in school, but you. What is it that your organization plans to accomplish?"
 
     s "Umm...I don't know, my friend just started a group with me and one other person. I'm guessing we just hang out with the four of us then figure what we want to do."
 
     #image Ari embarrassed = "Ari_embarrassed.png"
     show Ari embarrassed at right
 
-    a "Hmmm...Okay, I might just drop in. It would be nice having something to do in my spare time at school with someone familiar. If that's okay with you..."
+    a "Hmmm...Okay, I might just drop in. It would be nice having something to do in my spare time at school with someone familiar. If that is okay with you..."
 
     show Sam happy
 
@@ -465,11 +467,13 @@ label start:
 
     "He stares at me with sheer joy."
 
-    a "Yeah, friend. I'll see you later."
+    a "Yeah, friend. I will converse with you later."
 
     hide Ari happy at right
 
     "Ari waves as we exchange goodbyes for the day. I head home with newfound happiness."
+    
+    s " He talks quite oddly and overly formal, but he's a cool guy. It ought to be interesting with him around."
 
     show Sam neutral at left
 
@@ -489,7 +493,7 @@ label start:
 
     show Sam embarrassed at left
 
-    s "Uhh...Good.."
+    s "Uhh...G-good.."
 
     "I stammer as i'm frozen by her voice."
 
@@ -520,7 +524,7 @@ label start:
     hide Bella happy
     hide Cynthia neutral at right
 
-    "Bella and Cynthia part their separate ways back to their houses."
+    "Bella and Cynthia part their separate ways for now."
     
     show Sam neutral at left
 
@@ -532,7 +536,7 @@ label start:
 
     "What a change to my life. Somehow, I got wrapped into a small club by Bella and met two new interesting people. I guess I have something to look forward to now at school to maybe make it a little more interesting."
 
-    "It's still only high school, so it's still pretty boring, but I guess it's what you make of it."
+    "This must be what Bella means by it's what you make of it..."
 
     show Bella neutral at left
 
@@ -554,7 +558,7 @@ label start:
     hide Ari neutral
     hide Cynthia neutral at right
 
-    "This must be what Bella was talking about enjoying our time here, huh. The feeling of hope and determination is warm, but then the thought of reality stings of how boring and dissappointing every could be."
+    "The feeling of hope and determination is warm, but then the thought of reality stings of how boring and dissappointing everything could be."
 
     "No, I should make the best of my time here and make my story more than just an ordinary life as a high school student."
 
@@ -582,6 +586,24 @@ label start:
     #Diverged Ending = Send Sam to insanity, for the forbidden story
 
 #Chapter 1: Expanding Universe
+
+    scene bg sidewalk
+    
+    " I never thought that I would say that I'm looking forward to school since kindergarten, but here I am. I wonder how today will go?"
+    
+    " As usual morning routine, I get ready for school and walk to school, meeting up with Bella along the way."
+    
+    show Sam neutral
+    
+    s "Mornin', Bella! How's it goin?"
+    
+    show Bella happy at left
+    
+    b "Fantastic! I actually got some sleep last night!"
+    
+    s "You got a good night's rest for once?"
+    
+    b "Hehe...I just couldn't wait for today to happen!"
 
     # This ends the game.
 
