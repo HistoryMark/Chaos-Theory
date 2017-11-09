@@ -1136,7 +1136,7 @@ label Ch1AY:
     
     show Ari neutral at right
     
-    a "Thermodynamics. Anyway, I guess it would not hurt to try other things. What do you suppose we should try?"
+    a "Thermodynamics. Anyway, I suppose it would not hurt to try other things. What do you propose we should try?"
     
     s "Oh, shoot. I didn't think I would get this far."
     
@@ -1230,7 +1230,7 @@ label Ch1AY:
     
     with dissolve
     
-    scene be cgfrisbeefun
+    scene bg cgfrisbeefun
     
     s "Come on, Bella, let's show em what we've got!"
     
@@ -1930,7 +1930,7 @@ label Ch1CY:
     
     show Cynthia talking
     
-    c "I kept wondering what I did wrong as president, but I guess everybody gets a little greedy around money."
+    c "I kept wondering what I did wrong as president, but I see that everybody gets a little greedy around money."
     
     c "I really wasn't in it for the money. I just had to find ways to get it to be able to make something. It should be driven by the want to make something, not just to make money."
     
@@ -2094,6 +2094,233 @@ label Ch1CY:
 
 #Chapter 1S: An Only Child
 label Ch1S:
+    
+    with dissolve
+    with fade
+    
+    show Cynthia neutral
+    
+    c "Something really simple like family to talk about?"
+    
+    show Sam neutral at right
+    
+    s "I don't know, I just thought of something."
+    
+    c "Okay!"
+    
+    c "Well, you've met my mom and dad, my mom's an ob-gyn and my dad is an architect."
+    
+    s "Wow really? What's an ob-gyn?"
+    
+    show Ari neutral at left
+    
+    a "A health care specialist who deals with the health of the female reproductive system."
+    
+    "Ari replies in the background as he's reading some books."
+    
+    hide Ari neutral at left
+    
+    c "Basically, she takes care of women delivering their babies."
+    
+    s "Oof. What a job."
+    
+    c "I also have an older brother who works as an IT for multiple companies and an older sister who is a journalist."
+    
+    s "Got any younger siblings?"
+    
+    c "A younger brother and sister, both are in elementary school."
+    
+    s "You've got four other siblings?"
+    
+    c "Only my older sister moved out, everyone still lives in my house along with my grandparents."
+    
+    s "Sheesh, a huge family!"
+    
+    c "My grandma was a therapist and she would kill us we put her in a nursing home seeing as she once worked in them."
+    
+    s "Hehe..."
+    
+    c "Overall, everything is fine for me with them, how about your family?"
+    
+    c "You said earlier that you're an only child. Does that bother you sometimes?"
+    
+    s "..."
+    
+    "I stay silent, knowing that I have to admit it."
+    
+    c "I don't understand your struggle of being an only child, but I can empathize with the fact that you're lonely most of the time."
+    
+    c "I couldn't imagine a day all alone at home with my many siblings."
+    
+    s "That's why I mostly hang out with Bella."
+    
+    c "But most of the time, you're still home by yourself."
+    
+    show Sam sad at right
+    
+    s "..."
+    
+    c "Do you still want to talk about it?"
+    
+    hide Sam sad at right
+    hide Cynthia neutral
+    
+menu:
+    
+    "Should I continue?"
+    
+    "Yes.":
+        jump Ch1SY
+        
+    "No.":
+        jump Ch1No
+        
+#Ch1S Accepted
+label Ch1SY:
+
+    #stop music fadeout 1.0
+    #play music bitterness loop
+    
+    show Sam sad
+    
+    s "Yea, I can talk about it."
+    
+    show Cynthia neutral at right
+    
+    c "Alright, just know you don't have to share anything you don't want to. I would understand if you need your privacy. I know I would want to keep some things private."
+    
+    s "Yeah, that's cool i'm the son of a famous businesswoman who made billions of real estate, but I gotta say, it's cold to live behind that shadow."
+    
+    show Bella talking at left
+    
+    b "What do you mean?"
+    
+    s "I just don't see myself doing anything remotely close to amazing like my mom. I can't really follow in her footsteps as I just don't see myself in business like she does."
+    
+    hide Bella talking at left
+    show Ari talking at left
+    
+    a "So, what do you want to do?"
+    
+    show Ari neutral at left
+    
+    s "Err....God, I don't know! I'm mediocre at best as a student, I can't seem to be able to be good at a lot of things, and I don't know what to do with my life."
+    
+    s "You guys have your parents to look to for advice, I don't even see my mother for a year or so. She wasn't even able to come to my birthday and only talked to her through the phone for 10 minutes."
+    
+    s "My mom, also just got divorced for the third time, life has been rough, okay? Especially in my family."
+    
+    show Cynthia sad at right
+    hide Ari neutral at left
+    show Bella sad at left
+    
+    b "Sam..."
+    
+    s "..."
+    
+    b "It's okay, Sam. We can't really understand how that feels, but we're here to help you."
+    
+    c "That's right, you can let it all out."
+    
+    s "..."
+    
+    s "Alright, i'll let loose for a while."
+    
+    with dissolve
+    hide Bella sad at left
+    hide Sam sad
+    hide Cynthia sad at right
+    
+    scene bg cgdonnamoore
+    
+    s "You definitely know my mom, Donna Moore, even though you've never met her right?"
+    
+    c "We hear about her in the news."
+    
+    a "She's the CEO of the multi-billionaire real estate company. She innovated urban planning and housing systems in communities changing the landscape of realty. She made it on a plethora magazines for that."
+    
+    s "You guys know more about her than I know of her."
+    
+    b "How can you say that?"
+    
+    s "She rarely comes home, like once a year or so for a week, then she's back to work."
+    
+    c "Oh, dear."
+    
+    s "Yeah, my mom has a butler and a maid to look after me and help me get to school, but I just really miss her."
+    
+    s "She wasn't always working like this. Before she became as big as she is now, she would sacrifice so much of her time from work to go home early."
+    
+    s "Now, i'm in high school, and she's just constantly working. Things change, I guess."
+    
+    a "Truly she trusts you more to be able to handle yourself now."
+    
+    s "Yeah, I get it, but I just want her to come home every now and then. Not once a year."
+    
+    s "Look, I love my mom just like a lot of people do, but I hate her with how she's such a workaholic."
+    
+    s "Then, i'm looked at to be her heir and follow in her footsteps and become another businessman."
+    
+    s "I just can't."
+    
+    with dissolve
+    with fade
+    
+    scene bg clubroom
+    
+    show Sam neutral
+    
+    s "Sorry to dump it all on you guys, but you can see it kinda bothers me when I hear about my mom."
+    
+    show Cynthia talking at right
+    
+    c "Why would that be?."
+    
+    s "I have...issues with her."
+    
+    show Cynthia neutral at right
+    show Bella neutral at left
+    
+    b "We'll get through it. We promise."
+    
+    hide Bella neutral at left
+    hide Cynthia neutral at right
+    hide Sam neutral
+    
+    "We spend the rest of the time for the club meeting just making small talk with each other, as we found ourselves unable to find much to talk about aside from school."
+    
+    show Bella neutral
+    
+    b "Alright! I hope you guys had fun learning about each other as club members. Hopefully we do become great friends with each other! I'll see you guys tomorrow and at the next meeting!"
+    
+    "Ari and Cynthia exchange goodbyes with everyone and head out. I begin to pack up my things as well, but Bella stops me as I was about to leave the room."
+    
+    b "Sam, I need to talk to you before you go."
+    
+    s "Ok, what is it?"
+    
+    b "I didn't know that's how you felt with your mom before. It really shocked me that you really opened up to show us that."
+    
+    s "I'm just as surprised as you. Also, it's been like this with my mom for a while. I guess I just really had to let it out."
+    
+    b "Well, thanks for sharing with us, and with me as your best friend."
+    
+    b "I swear i'll do anything to help you patch things up with your mom. Just know that your also like family to me. You're not alone."
+    
+    s "Thanks, Bella. I really can't thank you enough."
+    
+    b "Now come on you big drama king, let's head home."
+    
+    hide Bella neutral
+    
+    "And so, Bella and I head home casually talking about school and other small talk as if nothing had really happened. It did cheer me up a little to go back into the crazy swing of things between us from my little dramatic moment."
+    
+    "I really surprised myself with how I really chose to open myself up to others and it made me feel good about venting. Perhaps I should really do that more often and maybe i'll be able to actually patch things up with Mom."
+    
+    "I don't know how things might change from here on out, I just hope it's for the better"
+
+#End of Chapter 1S
+    jump Ch2
 
 #Chapter 1N: Overdramatization
 label Ch1No:

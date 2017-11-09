@@ -2,6 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 225: indentation mismatch.
+File "game/script.rpy", line 1400: end of line expected.
+    jump to Ch2
+            ^
 
 Ren'Py Version: Ren'Py 6.99.12.4.2187
