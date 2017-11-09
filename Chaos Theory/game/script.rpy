@@ -4,7 +4,7 @@
 
 #Art by ...
 
-#Music by Mark Perez
+#Music by ...
 
 #Opening Cover Summary: Follow the story of these four close friends as they go through the treacherous years of high school. As they struggle with conflicts in the life of high schoolers between family, work, friends, and life itself. Will the story be just another drop in the ocean, or will it be something unexpected? Based on experiences from American high school, dive back to high school as what we expected it to be or just relive on how boring it actually was.
 
@@ -119,7 +119,7 @@ define sms = Character("A Male Student")
     
     #image bg cgdonnamoore = "donnamoore.jpg"
     
-    #image bg cgpresidentcynthia = "presidentcynthia.jpg"
+    #image bg cgqueencynthia = "queencynthia.jpg"
     
     #image bg cgwritingtogether = "writingtogether.jpg"
     
@@ -153,37 +153,28 @@ define sms = Character("A Male Student")
     
     #image bg myletter = "True_ending.jpg"
     
-#Background Music (6)
+#Background Music (7)
 
-#Music Theme (for Game): EDM/Instrument/Classic (If not composing) or Instrumental (Composed by team artist)
-#If not being composed by an artist in the team, refer to the notes below for song suggestions
-#Note: Also adjust volume of music in game, so it's not too distracting
+define audio.maintheme = "maintheme.ogg"
 
-define audio.maintheme = "music/maintheme.mp3"
-#Main Theme: Snail's House - Pixel Dream
+define audio.regularday = "regularday.ogg"
 
-define audio.regularday = "music/regularday.mp3"
-#Sweetly Said by Mark Perez
-#Regular Day Theme: Laxo - Popsicles With Friends
+define audio.sweetly = "sweetly.ogg"
 
-define audio.sweetly = "music/Sweetly_Said.mp3"
-#Sweetly Theme: Snail's House - Love Story
+define audio.playful = "playful.ogg"
 
-define audio.playful = "music/playful.mp3"
-#Playful Theme: TheFatRat - Unity
+define audio.bitterness = "bitterness.ogg"
 
-define audio.bitterness = "bitterness.mp3"
-#Bitterness Theme: Cole Sipe ft.Sophia Odiorne - Innocent
+define audio.emotion = "emotion.ogg"
 
-define audio.emotion = "emotion.mp3"
-#Emotion Theme: Lindsey Stirling ft.Lzzy Hale - Shatter Me
+define audio.trouble = "trouble.ogg"
     
 label start:
 
 #Prologue: An Ordinary Day
 
     scene bg sidewalk
-    #play music regularday loop
+    play music regularday loop
     
     "It was an ordinary day, in this ordinarily boring life as a high school student..."
     
@@ -217,7 +208,7 @@ label start:
                                                                           
     s "Sure, might as well bring a pillow for those small moments."
                                                                    
-    "This silly exchange is how every morning goes by."
+    "This silly exchange is how every morning goes during school."
     
     "This is the life of this ordinary kid, Sam Moore. I'm 15, a freshman in high school, to which i'm not as excited as my friend is."                                                                                                                 
     
@@ -253,7 +244,7 @@ label start:
     
     b "It's a place where you learn about yourself and grow as a person, a place to learn skills for a bright future!"
     
-    "Bella' voice grows louder as she continues of her speech about school.f"
+    "Bella' voice grows louder as she continues of her speech about school"
     
     b "It's a place to celebrate and live life while we're young!"
     
@@ -277,7 +268,7 @@ label start:
     
     s "Yeah, but it was only to get into trouble. I'd rather just keep to myself rather than have some people yell at me now."
     
-    b "I won't take 'no' for an answer! Come with me after school, i'll take you to go see some clubs."
+    b "I won't take 'no' for an answer! Come with me after school, I'll take you to go see some clubs."
 
     show Bella happy
     
@@ -309,7 +300,7 @@ label start:
     
     "As I was about to leave the classroom to go meet with Bella, I catch the glare of a student with a pained look on his face right at the doorway."
     
-    #stop music fadeout 1.0
+    stop music fadeout 1.0
     show Ari sad at right
     
     sms "..."
@@ -337,7 +328,7 @@ label start:
     scene bg hallway
     show Sam neutral
     show Bella happy at left
-    #play music playful loop
+    play music playful loop
     
     "I meet up with Bella in the hallway to see her waiting for me outside my classroom."
     
@@ -380,7 +371,7 @@ label start:
     with fade
 
     show Bella talking at left
-    #stop music fadeout 1.0
+    stop music fadeout 1.0
     
     b "There's gotta be a club you're somewhat interested in, Sam! Please at least try one out before saying no!"
     
@@ -403,7 +394,7 @@ label start:
     with dissolve
     with fade
     
-    #play music maintheme loop
+    play music maintheme loop
     
     s "So, what happened?"
     
@@ -431,7 +422,7 @@ label start:
     
     "With that settled, I head home pondering about recruiting another student for our group."
     
-    #stop music fadeout 1.0
+    stop music fadeout 1.0
     hide Sam neutral
     
     scene bg sidewalk
@@ -456,7 +447,7 @@ label start:
     
     "Gathering courage, I walk over to him and start gathering his things for him."
     
-    #play music bitterness loop
+    play music bitterness loop
     
     s "Are you okay? Those kids didn't even realize they knocked you over. Here's your glasses."
     
@@ -492,13 +483,13 @@ label start:
     
     sms "T-thank you...Here, I will help you in assisting me."
     
-    #stop music fadeout 1.0
+    stop music fadeout 1.0
     
     "He takes half of the books and carries them entrusting me with the other half."
     
     s "Anyway, I saw you earlier, you're from the same class from me, Ari, wasn't it?"
     
-    #play music regularday loop
+    play music regularday loop
     
     a "Yeah...I'm sorry, I didn't catch yours."
     
@@ -547,11 +538,11 @@ label start:
 
     s "What would make you say that?"
 
-    a "I reside in the city with my aunt, but she's occupied with work frequently. I'm studying here and the rest of my family is still back home in Japan."
+    a "I reside in the city with my aunt as my only companion and guardian, but she's occupied with work frequently. I'm studying here and the rest of my family is still back home in Japan."
 
     s "Oh...I live with my family here, but I never see my parents much because they're working, so I guess we kinda have that in common. Also, you speak English way too well to be Japanese."
 
-    a "I studied that since I was 4, so I can go to school here."
+    a "I was born and raised here by my aunt, so it comes natural to me."
     
     s "Oh, cool!"
 
@@ -561,7 +552,7 @@ label start:
 
     s "You plan to be a lawyer, engineer, or doctor?"
 
-    a "I aspire to be a surgeon as my family hopes me to be."
+    a "I aspire to be a profesional surgeon as my family hopes me to be."
 
     s "It's hard for me to find motivation to even get up for school. I'll probably just end up working at a bar, or shop, but I don't see that much as a problem. I just don't see myself having much potential and i'm mediocre at best with everything in school."
 
@@ -599,9 +590,9 @@ label start:
 
     a "Hmmm...Okay, I might just drop in. It would be nice having something to do in my spare time at school with someone familiar. If that is okay with you..."
 
-    #stop music fadeout 1.0
+    stop music fadeout 1.0
     show Sam happy
-    #play music maintheme loop
+    play music maintheme loop
 
     s "Yeah, friend! I would be happy if you came!"
 
@@ -616,18 +607,17 @@ label start:
     a "Yeah, friend. I will converse with you later."
 
     hide Ari happy at right
-    #stop music fadeout 1.0
+    stop music fadeout 1.0
 
     "Ari waves as we exchange goodbyes for the day. I head home with newfound happiness."
     
     s " He talks quite oddly and overly formal, but he's a cool guy. It ought to be interesting with him around."
 
-    with dissolve
     show Sam neutral at left
 
     "I head home and see Bella and an unfamiliar face waiting for me at the gate."
 
-    #play music regularday loop
+    play music regularday loop
     show Cynthia neutral at right
     show Bella neutral
 
@@ -681,8 +671,8 @@ label start:
     "I wave after them."
 
     hide Sam neutral at left
-    #stop music fadeout 1.0
-    #play music maintheme loop
+    stop music fadeout 1.0
+    play music maintheme loop
 
     "What a change to my life. Somehow, I got wrapped into a small club by Bella and met two new interesting people. I guess I have something to look forward to now at school to maybe make it a little more interesting."
 
@@ -714,7 +704,7 @@ label start:
 
     "Who knows, maybe something incredible might happen. Emphasis on 'might'."
     
-    #stop music fadeout 1.0
+    stop music fadeout 1.0
 
     with dissolve
     with fade
@@ -740,7 +730,7 @@ label start:
 #Chapter 1: Expanding Universe
 
     scene bg sidewalk
-    #play music maintheme loop
+    play music maintheme loop
     
     " I never thought that I would say that I'm looking forward to school since kindergarten, but here I am actually going to school early. I wonder how today will go?"
     
@@ -861,12 +851,12 @@ label start:
     
     "We head to school with the whole club gathered and casually make more small talk."
     
-    #stop music fadeout 1.0
+    stop music fadeout 1.0
     with dissolve
     with fade
     
     scene bg schoolyard
-    #play music regularday loop
+    play music regularday loop
     
     show Bella neutral at left
     show Sam neutral
@@ -931,8 +921,8 @@ label start:
     
     with dissolve
     scene bg clubroom
-    #stop music fadeout 1.0
-    #play music maintheme loop
+    stop music fadeout 1.0
+    play music maintheme loop
     
     "Ari is at one corner of the room reading a bunch of large textbooks and Cynthia is painting her nails at another corner of the room."
     
@@ -1019,8 +1009,8 @@ label start:
     "I do want to hang out with everyone here, but I can only spend so much time with everone at a time a day, but i'll have plenty of time to enjoy my time here, I guess."
     
     with dissolve
-    #stop music fadeout 1.0
-    #play music playful loop
+    stop music fadeout 1.0
+    play music playful loop
     
 menu:
     
@@ -1037,10 +1027,8 @@ menu:
 
 #Chapter 1A: Sam and Ari
 
-label Ch1A:
-    
-    with dissolve
-    with fade
+label Ch1A
+
     show Sam neutral at right
     
     s "Hey, Ari! We already kinda know each other, so for now let's just hang out. What's going on?"
@@ -1126,9 +1114,9 @@ menu:
         jump Ch1No
 
 #Ch1A Accepted
-label Ch1AY:
+label Ch1AY
 
-    $ Ari_Ch1 = True
+    $ Ari_Ch1 = True 
 
     show Sam neutral
     
@@ -1142,7 +1130,7 @@ label Ch1AY:
     
     s "Have you ever played ultimate frisbee?"
     
-    a "No, but I do at least have heard of it."
+    a "No, but I do at least have the knowledge of it."
     
     s "Come on, i'll show you and the girls how to play."
     
@@ -1242,9 +1230,7 @@ label Ch1AY:
     
     "The game starts off without a hitch, Bella gets a good pass to me and we pass to each other to make it to the half way point of the field."
     
-    a "We have a slight beginner's disadvantage here, but that will not deter us!"
-    
-    c "Yeah! Let's do this!"
+    c "We have a slight beginner's disadvantage here, but that won't stop me!"
     
     "Cynthia tries to block my pass to Bella, but I still got to throw the frisbee."
     
@@ -1260,7 +1246,7 @@ label Ch1AY:
     
     "I sprint to try to intercept Ari's throw with Bella trying to block it, his feint catches both Bella and I off guard."
     
-    "Ari quickly passes the frisbee at a low angle and Cynthia catches the frisbee in response."
+    "Ari quickly passes the frisbee at a low angle and Cynthia catches the frisbee while diving."
     
     "Ari doesn't waste time to reposition himself for another pass."
     
@@ -1274,7 +1260,7 @@ label Ch1AY:
     
     "The volley starts to go back and forth with the frisbee switching sides very frequently."
     
-    "Cynthia isn't very accurate with throwing the frisbee nor is she good at catching, but does make up for it with being able to communicate well with Ari. Ari really doesn't talk much, but does communicate through hand signals."
+    "Cynthia isn't very accurate with throwing the frisbee nor is she good at catching, but does make up for it with being able to communicate well with Ari using hand signals. Ari really doesn't talk much, but does communicate through hand signals."
     
     "Bella is quick to move around the field a lot and I am very precise at throwing and catching the frisbee, only to have Ari with his sneaky moves to intercept it."
     
@@ -1288,7 +1274,7 @@ label Ch1AY:
     
     "We continue onto the field to continue the match. Cynthia compliments us for our good play, Ari is still silent, but with a smirk on his face."
     
-    "Second half of the game, Ari has completely shut down our blocking strategy! Within 5 passes, Ari scores the first goal."
+    "Second half of the game, Ari has shown that he's showed Cynthia some maneuvers and has completely shut down our blocking strategy! Within 5 passes, Ari scores the first goal."
     
     c "Woohoo! Nice one!"
     
@@ -1314,8 +1300,6 @@ label Ch1AY:
     with fade
     
     scene bg hallway
-    #stop music fadeout 1.0
-    #play music regularday loop
     
     show Bella embarrassed
     
@@ -1346,7 +1330,7 @@ label Ch1AY:
     
     a "It was quite exhilirating."
     
-    s "You're not only really athletic, you're really sneaky."
+    s "You're not only really athletic, you're really cunning with those maneuvers."
     
     s "And you say you're only good at science stuff."
     
@@ -1360,7 +1344,7 @@ label Ch1AY:
     hide Cynthia neutral
     hide Ari embarrassed at left
     
-    "And so, we spent the rest of the afternoon cleaning up the broken glass and apologized to the science teacher in that classroom."
+    "And so, we spent the rest of the afternoon cleaning up the broken glass and apologized to the science teacher in that classroom. He let me off the hook with having to pay for the beakers, because he just ordered more anyway. Still awfully nice of him to let me go."
     
     show Sam embarrassed
     
@@ -1401,20 +1385,16 @@ label Ch1AY:
     
     "We all went home together that day and every time after our club meetings really enjoying our time together. I really am enjoying myself in the club."
     
-    "As I spend more time with Ari, he starts to speak up a little more and has become less shy with us. It's great seeing him really open up. It's even nicer to see him really shine as from before, he was a quiet and shy person. Hopefully I get to know more about him.."
-    
-    #stop music fadeout 1.0
+    "As I spend more time with Ari, he starts to speak up a little more and has become less shy with us. It's nice seeing him really open up. It's nice seeing him really shine as from before he was a quiet and shy person. Hopefully I get to know more about him.."
 
 #End of Chapter 1A
      
-    jump Ch2
+     jump to Ch2
 
 #Chapter 1B: School and Work
 
-label Ch1B:
+label Ch1B
 
-    with dissolve
-    with fade
     show Bella neutral
     
     b "You wanna hang out with me today?"
@@ -1463,7 +1443,7 @@ menu:
         jump Ch1No
         
 #Chapter 1B Accepted
-label Ch1BY:
+label Ch1BY
 
     $ Bella_Ch1 = True
 
@@ -1501,7 +1481,7 @@ label Ch1BY:
     
     s "Do you even get enough sleep?"
     
-    b "Aside from club activities in this club, student council, and the debate club, i've got a job to keep outside of school, I have to babysit my siblings, and I do all the chores in my house."
+    b "Aside from club activities in this club, student government, and the debate club, i've got a job to keep outside of school, I have to babysit my siblings, and I do all the chores in my house."
     
     s "That's right, you're the oldest in your family. You also work an afternoon shift at that cafe downtown."
     
@@ -1511,263 +1491,42 @@ label Ch1BY:
     
     b "Well, the main reason I got that job was to start saving up for college, because my parents have no money for it."
     
-    s "How are you gonna get to college if you can't even get through high school with your sanity?"
+    s "How are you gonna get to college if you can't even get through high school with you sanity?"
     
     show Bella sad
     
-    b "Don't worry about it, i'll be able to handle all of this."
+    b "Hmm...You're right. I hate to admit it, but you're right."
     
-    s "If you say so, we're just worried for you."
-    
-    s "Anyway, you got anything else to do today aside from homework and this club?"
+    s "Don't worry, we'll get you through it. Trust me."
     
     show Bella neutral
     
-    b "Yea, i'm going to run for student body president, so I gotta set up for my campaign."
+    b "Thanks, Sam."
     
-    s "Cool, I guess. It's just probably another popularity contest though."
+    show Cynthia neutral at right
     
-    b "No, it's not! Student body president is a very important position!"
+    c "You're still a freshman, you should enjoy your first year as it'll get harder as the years go by. You have to do much more later on, so just relax for your first year."
     
-    s "What do you exactly do as student body president?"
+    show Ari talking at left
     
-    b "As president, you preside over student council meetings, coordinate and plan student events and pep rallies, and much more!"
+    a "Do not eat more than you can chew. You will spread yourself way too thinly to be able to do anything if you try to do everything."
     
-    s "Sounds way too much hoopla over deciding whether to have confetti or strobe lights in the assembly."
+    c "I know you want to really enjoy your high school years, but you also need to be able to enjoy sleep."
     
-    b "Oh, don't say it like that!"
+    b "I get what you guys are saying, but I really want to do this, it's just I have trouble keeping a schedule and managing my time."
     
-    s "I just don't see the hype over planning events where we're forced by the school to attend."
+    c "Babe, you need to be able to do that, you're going to die if you do that much."
     
-    b "We're trying to make them fun for us."
-    
-    s "In the end, it's still the teachers who have final say in things."
-    
-    b "We work to negotiate with the teachers to make the events that both the students will like, but also within reason."
-    
-    s "Alright, then."
-    
-    b "Speaking of which, I need to go make those posters for the campaign, can you stay here and hold the meeting?"
-    
-    s "No, i'll go help you out with those."
-    
-    show Cynthia talking at left
-    
-    c "I don't have anything to do right now, so i'll go too."
-    
-    show Cynthia neutral at left
-    show Ari talking at right
-    
-    a "I shall provide aid for your task."
-    
-    show Ari neutral at right
-    
-    b "Thanks, everyone! Are you guys sure you want to help me with this instead of our club stuff right now?"
-    
-    c "This could be considered club activity, we're helping you with academic help and I could show you where the around the school."
-    
-    b "Okay, then! Seems that it's good with you guys, so let's get to it!"
-    
-    hide Cynthia neutral at left
-    hide Bella neutral
-    hide Ari neutral at right
-    
-    with dissolve
-    scene bg cghardwork
-    
-    b "Ari, go pick up some copic markers, pens, and other coloring stuff in the closet of the art club."
-    
-    a "Right."
-    
-    c "The room should be down the stairwell down the hall."
-    
-    "Ari and Cynthia take off to go pick up some supplies."
-    
-    b " Sam, stay here and help me design my posters here."
-    
-    s "You're asking me to design the poster? I'm not very creative and the most creative thing i've made is the 'S' sign from 6 straight lines."
-    
-    b "Don't worry, i'm sure we'll come up with something good together. It's better to have two heads than one."
-    
-    s "If you say so."
-    
-    "We spend about 10 minutes coming up with a basic idea for a slogan, but we come up with nothing that is worth of a small consideration."
-    
-    b "We gotta come up with something already!"
-    
-    s "I think you're trying too hard with coming up with a slogan. It has to be something simple."
-    
-    b "I don't know."
-    
-    "Ari and Cynthia return with huge boxes filled with paper, markers, and other art supplies."
-    
-    a "I hope this will suffice."
-    
-    c "It's quite a lot, but we definitely have all that we need to make our poster stand out!"
-    
-    s "Hey, you're back! Anyway, we're trying to come up with a campaign slogan to put on the poster."
-    
-    a "It seems that you have drawn what appears to be the mythical unicorn on the poster."
-    
-    c "A unicorn with its own clouds and rainbows, how cute! A little too cute..."
-    
-    s "Still need something to go with it..."
-    
-    a "How about something simple to accompany it? Let me ask, what do unicorns remind you of?"
-    
-    b " Something that comes only in dreams. Something magical."
-    
-    c "Where can we go with that?"
-    
-    a "How about something simple, yet common like this: 'Teamwork makes the dream work!' "
-    
-    b "Ari, that's brilliant!"
-    
-    a "Really? I do not see its merit as that groundbreaking."
-    
-    s "Hey, that's pretty good!"
-    
-    c "I swear i've heard that line from somewhere."
-    
-    s "Well now, we've got something! Put it on the poster with bold letters!"
-    
-    c "Lots of glitter!"
-    
-    a "Please do not add so much glitter that it makes one blind."
-    
-    "Equipped with an idea, copic markers, glue, and glitter, we get to work on our poster. It turns out to be quite 'something'."
-    
-    b "I love it!"
-    
-    s "Err...It's...How can I say this..."
-    
-    a "Cute."
-    
-    s "It's really girly!"
-    
-    c " Is that a bad thing?"
-    
-    s "It stands out for sure."
-    
-    a "Then, we've reached our objective."
-    
-    b " It turned out great guys! Let's get this copied and posted!"
-    
-    s "Well, she's happy with them, so it's all good."
-    
-    "We get the posters copied, laminated, and approved to be posted. It took quite a while to get all of this done that it was already 7PM when we got done."
-    
-    s "We sure did a number on the color printer and the glitter."
-    
-    c "Heh, I got a little carried away with the glitter."
-    
-    b " They all look great with glitter!"
-    
-    a "It does serve as good eye candy."
-    
-    s "It definitely took a while, but we got it done!"
-    
-    b "Teamwork truly does make the dream work!"
-    
-    s "Hehe, you're really embracing that slogan."
-    
-    b "Thank you everyone, for helping me out with this! I hope there's some way I can pay you for your work."
-    
-    b "No, you don't have to pay a single dime! It was fun to help out!"
-    
-    a "I agree, it was entertaining."
-    
-    s "Yea, don't worry about it. It was part of the club work."
-    
-    b "Hehe...Thanks guys."
-    
-    with dissolve
-    with fade
-    
-    scene bg sidewalk
-    #stop music fadeout 1.0
-    #play music regularday loop
-    
-    "We shortly all head home together after a long day of work."
-    
-    "We all casually talk about what's going on in school the next day and plans for tomorrow. We see Cynthia and Ari off, leaving me alone with Bella."
-    
-    show Bella neutral
-    
-    b "Today, was fun! We got to work together as a team."
-    
-    s "You definitely needed a team to help with that much work! Don't tell me you planned on doing that all by yourself?"
-    
-    b "Sorry, I didn't want to bother anyone with it."
-    
-    s "Dude, i'm your best friend! If you need a shoulder, i've got one for you to lean on. Don't think it's a bother, because your bothers are mine as well, okay? You're seriously going to hurt yourself from doing too much work."
-    
-    s "I know you're a little of a workaholic, but there's such as thing as too much work, even if you're willing to do a lot of work. You can only do so much at a time!"
-    
-    show Bella happy
-    
-    b "Thanks, Sam. It means a lot."
-    
-    "She gives me a bright smile and again it gives we a warm feeling, but this time it feels warmer than before."
-    
-    b "You're like a big brother to me, always looking after me."
-    
-    show Sam embarrassed at left
-    
-    s "Uhh...Yeah, that's cool."
-    
-    show Bella embarrassed
-    
-    b "Umm...I didn't mean anything like that! Oh..."
-    
-    "The warm situation quickly spun into awkwardness."
-    
-    s "(Ouch, just got friendzoned! Wait, why am I even thinking about this?)"
-    
-    show Bella neutral
-    
-    b "Anyways, thanks so much for helping me out all this time!  Sorry I haven't been able to do as much on my end other than put more work to do."
-    
+    hide Ari talking at left
     show Sam neutral at left
     
-    s "No, it's not like that, it's just we're kinda stuck with each other, being neighbohrs and all. Still, always happy to help."
+    s "Are you really that committed to doing all of that?"
     
-    show Bella happy
     
-    b "Hehe. You're too nice to me!"
     
-    "We arrive at Bella's house at the end of the exchange."
-    
-    show Bella neutral
-    
-    b "I'll see you tommorrow! I'll try to wake up early again!"
-    
-    s "Yeah's that not likely, I already know you're staying up late again."
-    
-    show Bella embarrassed
-    
-    b "Hehe...You know me too well. Anyways, see ya!"
-    
-    hide Bella embarrassed
-    
-    "We exchange goodbyes for the day and I promptly head home."
-    
-    "It felt like it was just natural for me to help Bella, but it felt even better today for some reason. I feel as if i'm getting even close than I ever have with Bella."
-    
-    "Still, I got friendzoned? Or maybe she doesn't know what she really wanted to say."
-    
-    "Anyways, I got closer to her in some way. It was also nice for Ari and Cynthia to help as well. I probably should also try to help them out. Seeing as they helped me help Bella."
-    
-    "We'll see what happens and what new thing will happen..."
-    
-    #stop music fadeout 1.0
-    
-#End of Chapter 1B
-
-    jump Ch2
     
 
-label TrueFork1:
+label TrueFork1
 
     show Cynthia happy
     
@@ -1787,321 +1546,17 @@ menu:
     "Family":
         jump Ch1S
 
-#Chapter 1C: President Cynthia
-label Ch1C:
+#Chapter 1C: Queen Cynthia
+label Ch1C
 
-    with dissolve
-    with fade
-    
-    show Cynthia embarrassed
-    
-    c "Oh? You want to talk about me?~"
-    
-    s "Uh...Yeah, I guess. I tried to keep it simple."
-    
-    show Cynthia neutral
-    
-    c "Uh huh."
-    
-    "Cynthia stares at me for a moment, and our eyes meet. I try to get my eyes to wander somewhere else to avoid the awkwardness."
-    
-    c "No, keep your eyes on me. It's a little test."
-    
-    s "Uh...Okay."
-    
-    "I try to concentrate on just staring at Cynthia's eyes as she said, but found it extremely awkward."
-    
-    s "Urk...This is extremely awkward."
-    
-    c "Well, they say you find someone more attractive or likeable when you stare into their eyes quite a while."
-    
-    s "You are playing mind games with me in such a way I wonder if they're games at all."
-    
-    c "Hehehe....."
-    
-    "She chuckles a little deviously."
-    
-    s "Anyway, about you, I heard you had a falling out with your last club. What happened with your club?"
-    
-    c "Oh, you are curious about that?"
-    
-    s "It gave me something to talk about with you I guess."
-    
-    c "I don't want to talk about it. It wasn't fun. Let's talk about something else."
-    
-    s "Hmmm..."
-    
-menu:
-    
-    "Should I help Cynthia?"
-    
-    "Yes":
-        jump Ch1CY
-        
-    "No":
-        jump Ch1No
-
-#Ch1C Accepted
-label Ch1CY:
-    
-    s "No, really. Let's talk about it."
-    
-    show Cynthia sad
-    
-    c "Err..."
-    
-    s "It couldn't have been that bad. Come on."
-    
-    c "..."
-    
-    s "It would make you feel better if you would talk to someone about it, even if they don't understand."
-    
-    c "..."
-    
-    s "Come on...It's alright."
-    
-    show Cynthia neutral
-    
-    c "You're fairly persistent. Fine i'll talk about it."
-    
-    s "Seriously, what happened?"
-    
-    hide Cynthia sad
-    with dissolve
-    #stop music fadeout 1.0
-    #play music regularday loop
-    
-    scene bg cgpresidentcynthia
-    
-    c "I was the president of the fashion club here and it was just a small club with 4 of my other friends."
-    
-    s "Fashion club? What do you guys do?"
-    
-    c "Design clothing, homemade jewelry, upcycling, making costumes, doing makeup tutorials, etc."
-    
-    s "That sounds cool!"
-    
-    c "Yeah, it's great, through fundraisers and the other school clubs sponsoring our commisions, we could make any clothing we want and what the other clubs may need for whatever they need it for."
-    
-    c "The five of worked like crazy, but really well on every aspect of making fashion. Design, material, measuring, styling, planning. Each of us had our own respective roles and we're really great at what we do."
-    
-    c "Not only that, we really knew each other. Jenny and Celica, the designer and stylist are in the tennis club, Ferdinand, Sarah, and I go to the same classes together. We're all good friends."
-    
-    s "Then what happened to split you guys up?"
-    
-    c "Do you know what's the major reason really famous bands break up?"
-    
-    s "Why?"
-    
-    c "Money."
-    
-    s "Your club gets paid by the school, commissions from other clubs, and fundraisers. Money shouldn't be a problem."
-    
-    c "Exactly. We get funding for our work, but the thing is it isn't equally shared as some members need more money to do their work."
-    
-    c " I always get the largest portion as president running things and advertising our works. Ferdinand who's in charge of materials and inventory always go the second largest portion of the funding so he can buy the club whatever we needed to make our clothes."
-    
-    c "Jenny gets the third larger portion of the cut as the designer, Celica gets the fourth portion as a stylist, and Sarah the smalles cut for measuring."
-    
-    s "Ok."
-    
-    c "We all get paid by the remaining budget we have from funding after the project is complete, and I have to distribute our earnings."
-    
-    c "Sarah wanted a larger portion for her pay, but she her job is mostly simple labor. Ferdinand had used a large portion of the funding from our project as the materials were a little more expensive than usual."
-    
-    c "Celica argued that everyone should get a raise too if Sarah was asking for one as well, but we didn't have much money left from the completion of the project."
-    
-    s "Oh."
-    
-    c "The project was a bust, we didn't sell as much as we had hoped and it was an expensive project. They started to blame each other."
-    
-    c "We had a huge argument that last for I don't even remember how long, then they had a fight."
-    
-    s "A fight happened?"
-    
-    c "We all got sent to detention for that and the club was disbanded after that."
-    
-    with dissolve
-    with fade
-    #stop music fadeout 1.0
-    #play music playful loop
-    
-    scene bg clubroom
-    
-    show Cynthia talking
-    
-    c "I kept wondering what I did wrong as president, but I guess everybody gets a little greedy around money."
-    
-    c "I really wasn't in it for the money. I just had to find ways to get it to be able to make something. It should be driven by the want to make something, not just to make money."
-    
-    show Cynthia neutral
-    
-    c "Anyways, that's my story of the fashion club in a nutshell."
-    
-    c "I know you guys are different, right? You guys have this club to just hang out, and so i'll do the same."
-    
-    s "Kinda hard to believe the same overdramatic thing that happens to bands happened to your little club."
-    
-    c "I didn't think it would happen as well, but as soon as we just got paid in a daily basis, everyone just expected to get paid. So when we didn't get paid as much, you see what happened with that."
-    
-    show Bella talking at left
-    
-    b "That really sucks. You started the club right? That's how you were president?"
-    
-    show Bella neutral at left
-    
-    c "Mhm...I had to look hard for 3 other people to join me, but I found 4 other talented people up to the task."
-    
-    show Ari talking at right
-    
-    a "Truly you were driven by passion?"
-    
-    show Ari neutral at right
-    
-    c "You kinda have to be. I started the club, and even if I wasn't president, I would have worked even without getting paid to do it. It was just a really fun thing to do."
-    
-    hide Ari neutral at right
-    show Sam neutral at right
-    
-    s "I know we might not have much, but i'll find some ways we can do some of the same stuff here in our club if you would find that really cool."
-    
-    c "Thanks, Sam, but just hanging out with you guys for the sake of hanging out is cool as it is."
-    
-    hide Bella neutral at left
-    
-    c "If you want, I can show you guys some cool face paints. Do you want to try?~"
-    
-    s "Hehehe...Sure, what can you make?"
-    
-    c "Whatever it is that you want.~"
-    
-    "Cynthia begins to talk with a sultry voice. It makes me quite uncomfortable when she talks like this..."
-    
-    hide Cynthia neutral
-    
-    with dissolve
-    
-    "We spend the next hour or so messing around with face paints and  making jewelry with paperclips."
-
-    show Sam neutral
-    
-    s "We can wash these off with water right?"
-    
-    show Cynthia talking at right
-    
-    c "No, it stains your skin permanently like tattoo. You'd have to get surgery to remove it."
-    
-    show Sam talking
-    
-    s "SERIOUSLY?!?"
-    
-    show Cynthia neutral at right
-    
-    c "No, it's washable, hypoallergenic, and completely safe."
-    
-    show Ari talking at left
-    
-    a "Of course, it is not anything too dangerous like that, Sam."
-    
-    hide Ari talking at left
-    show Bella neutral at left
-    
-    b "Hehe, yeah. Of course she couldn't get anything that dangerous in her hands easily. Right?"
-    
-    show Cynthia talking at right
-    c "Shhh...You don't tell anyone where you got your stuff from."
-    
-    s "Really?"
-    
-    show Cynthia happy at right
-    c "You're too easy to tease!"
-    
-    show Sam embarrassed
-    s "Err..."
-    
-    b "You tease me all the time. It's nice seeing you being teased for a change."
-    
-    show Sam neutral
-    
-    s "Yeah, yeah. Very funny."
-    
-    c "Hehe.~"
-    
-    "Cynthia gives a playful chuckle as she wipes off the face paint off me with a soft cloth."
-    
-    show Cynthia neutral at right
-    
-    c "There, although i've smeared it a little over your face."
-    
-    s "Oh, please."
-    
-    c "A little bit here, and there. Here you go, all clean. Take a look."
-    
-    "Cynthia gives me a mirror."
-    
-    s "That got cleaned way too nicely! It really comes off that easily?"
-    
-    c "You could add layers to make it stain resistant, but it does come off that easily with a makeup remover wipe."
-    
-    s "Oh, cool! Wait..."
-    
-    "I check my fingers and see they have been painted on."
-    
-    s "How'd you?"
-    
-    c "Nicely done Ari! That looks great! He didn't even notice you as well."
-    
-    show Ari neutral at left
-    
-    a "I did as you requested."
-    
-    s "Oh, come on Ari! You were in it too?"
-    
-    a "Hehe...I have to admit it is amusing to toy with you as well."
-    
-    s "Give me a break, already!"
-    
-    hide Ari neutral at left
-    hide Cynthia neutral at right
-    hide Sam neutral
-    
-    "We clean up all the makeup and face paint we used up as we noticed it was already quite late."
-    
-    with dissolve
-    with fade
-    
-    scene bg sidewalk
-    
-    "We all head home together after a 'fun' day messing around in the club."
-    
-    show Bella neutral
-    
-    b "All right guys! That was a great day at the club! I'll see you guys next Thursday and we now meet at Tuesdays and Thursdays. Text me if you can't make it so I can tell the supervisors. See you guys later!"
-    
-    hide Bella neutral
-    
-    "Bella waves goodbye and we all head back home."
-    
-    "Today was quite something. I got to know about Cynthia and her little club. She's also really skilled in makeup and stuff like that, although I know nothing about fashion and the most fashionabl thing I wear is my short sleeves."
-    
-    "I definitely should spend time with Ari and Bella too, as they also are just as interesting and odd as Cynthia."
-    
-    "Who knows what tomorrow might bring? I can only question..."
-    
-    #stop music fadeout 1.0
-    with dissolve
-    with fade
 
 #Chapter 1S: An Only Child
-label Ch1S:
+label Ch1S
 
 #Chapter 1N: Overdramatization
-label Ch1No:
+label Ch1No
     
     with dissolve
-    with fade
-    
-    #stop music fadeout 1.0
     scene bg hallway
 
     "I step outside the club room for a while..."
@@ -2109,7 +1564,7 @@ label Ch1No:
     "Bella soon follows suit after me."
 
 #Chapter 2: The Butterfly Effect
-label Ch2:
+label Ch2
 
     # This ends the game.
 
