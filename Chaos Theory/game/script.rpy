@@ -26,134 +26,134 @@ define sms = Character("A Male Student")
 
 # Character Sprites (24)
     
-    #image Sam neutral = "Sam_neutral.png"
+    #image Sam neutral = "images/Sam_neutral.png"
     
-    #image Sam happy = "Sam_happy.png"
+    #image Sam happy = "images/Sam_happy.png"
     
-    #image Sam sad = "Sam_sad.png"
+    #image Sam sad = "images/Sam_sad.png"
     
-    #image Sam embarrassed = "Sam_embarrassed.png"
+    #image Sam embarrassed = "images/Sam_embarrassed.png"
     
-    #image Sam talking = "Sam_embarrassed.png"
+    #image Sam talking = "images/Sam_embarrassed.png"
     
-    #image Sam crying = "Sam_crying.png"
+    #image Sam crying = "images/Sam_crying.png"
     
     
     
-    #image Bella neutral = "Bella_neutral.png"
+    #image Bella neutral = "images/Bella_neutral.png"
         
-    #image Bella happy = "Bella_happy.png"
+    #image Bella happy = "images/Bella_happy.png"
     
-    #image Bella sad = "Bella_sad.png"
+    #image Bella sad = "images/Bella_sad.png"
         
-    #image Bella embarrassed = "Bella_embarrassed.png"
+    #image Bella embarrassed = "images/Bella_embarrassed.png"
     
-    #image Bella talking = "Bella_talking.png"
+    #image Bella talking = "images/Bella_talking.png"
     
-    #image Bella crying = "Bella_crying.png"
+    #image Bella crying = "images/Bella_crying.png"
     
     
         
            
-    #image Ari neutral = "Ari_neutral.png"
+    #image Ari neutral = "images/Ari_neutral.png"
     
-    #image Ari happy = "Ari_happy.png"   
+    #image Ari happy = "images/Ari_happy.png"   
     
-    #image Ari sad = "Ari_sad.png"
+    #image Ari sad = "images/Ari_sad.png"
     
-    #image Ari embarrassed = "Ari_embarrassed.png"
+    #image Ari embarrassed = "images/Ari_embarrassed.png"
     
-    #image Ari talking = "Ari_talking.png"
+    #image Ari talking = "images/Ari_talking.png"
     
-    #image Ari crying = "Ari_crying.png"
+    #image Ari crying = "images/Ari_crying.png"
 
 
     
-    #image Cynthia neutral = "Cynthia_neutral.png"
+    #image Cynthia neutral = "images/Cynthia_neutral.png"
     
-    #image Cynthia happy = "Cynthia_happy.png"
+    #image Cynthia happy = "images/Cynthia_happy.png"
     
-    #image Cynthia sad = "Cynthia_sad.png"
+    #image Cynthia sad = "images/Cynthia_sad.png"
 
-    #image Cynthia embarrassed = "Cynthia_embarrassed.png"
+    #image Cynthia embarrassed = "images/Cynthia_embarrassed.png"
     
-    #image Cynthia talking = "Cynthia_talking.png"
+    #image Cynthia talking = "images/Cynthia_talking.png"
     
-    #image Cynthia crying = "Cynthia_crying.png"
+    #image Cynthia crying = "images/Cynthia_crying.png"
     
 #Background Scenes (14)
 
-    #image bg schoolyard = "sidewalk.jpg"
+    #image bg schoolyard = "images/schoolyard.jpg"
+
+    #image bg sidewalk = "images/sidewalk.jpg"
     
-    #image bg classroom = "clasroom.jpg"
+    #image bg classroom = "images/clasroom.jpg"
     
-    #image bg hallway = "hallway.jpg"
+    #image bg hallway = "images/hallway.jpg"
     
-    #image bg clubroom = "clubroom.jpg"
+    #image bg clubroom = "images/clubroom.jpg"
     
-    #image bg schoolfield = "schoolfield.jpg"
+    #image bg schoolfield = "images/schoolfield.jpg"
     
-    #image bg frontboard = "frontboard.jpg"
+    #image bg closet = "images/closet.jpg"
     
-    #image bg closet = "closet.jpg"
+    #image bg lounge = "images/lounge.jpg"
     
-    #image bg lounge = "lounge.jpg"
+    #image bg festival = "images/festival.jpg"
     
-    #image bg festival = "festival.jpg"
+    #image bg mall = "images/mall.jpg"
     
-    #image bg mall = "mall.jpg"
+    #image bg conferencecenter = "images/conferencecenter.jpg"
     
-    #image bg conferencecenter = "conferencecenter.jpg"
+    #image bg park = "images/park.jpg"
     
-    #image bg park = "park.jpg"
+    #image bg tower = "images/tower.jpg"
     
-    #image bg tower = "tower.jpg"
-    
-    #image bg barrenfield = "barrenfield.jpg"
+    #image bg barrenfield = "images/barrenfield.jpg"
     
 #Character Graphics (9)
 
-    #image bg cghardwork = "hardwork.jpg"
+    #image bg cghardwork = "images/hardwork.jpg"
     
-    #image bg cgfrisbeefun = "frisbeefun.jpg"
+    #image bg cgfrisbeefun = "images/frisbeefun.jpg"
     
-    #image bg cgdonnamoore = "donnamoore.jpg"
+    #image bg cgdonnamoore = "images/donnamoore.jpg"
     
-    #image bg cgpresidentcynthia = "presidentcynthia.jpg"
+    #image bg cgpresidentcynthia = "images/presidentcynthia.jpg"
     
-    #image bg cgwritingtogether = "writingtogether.jpg"
+    #image bg cgwritingtogether = "images/writingtogether.jpg"
     
-    #image bg cgheavylifting = "heavylifting.jpg"
+    #image bg cgheavylifting = "images/heavylifting.jpg"
     
-    #image bg cgnaturalteacher = "naturalteacher.jpg"
+    #image bg cgnaturalteacher = "images/naturalteacher.jpg"
     
-    #image bg cgpagebypage = "pagebypage.jpg"
+    #image bg cgpagebypage = "images/pagebypage.jpg"
     
-    #image bg cgunspokenfeelings = "unspokenfeelings.jpg"
+    #image bg cgunspokenfeelings = "images/unspokenfeelings.jpg"
     
-    #image bg cgmother = "mother.jpg"
+    #image bg cgmother = "images/mother.jpg"
     
-    #image bg cgheatedsituation = "heatedsituation.jpg"
+    #image bg cgheatedsituation = "images/heatedsituation.jpg"
     
-    #image bg cgaccident = "accident.jpg"
+    #image bg cgaccident = "images/accident.jpg"
     
 #Ending Images (7)
     
-    #image bg samsnote = "Sam_ending.jpg"
+    #image bg samsnote = "images/Sam_ending.jpg"
     
-    #image bg arisletter = "Ari_ending.jpg"
+    #image bg arisletter = "images/Ari_ending.jpg"
     
-    #image bg bellaspoem = "Bella_ending.jpg"
+    #image bg bellaspoem = "images/Bella_ending.jpg"
     
-    #image bg cynthiasdiary = "Cynthia_ending.jpg"
+    #image bg cynthiasdiary = "images/Cynthia_ending.jpg"
     
-    #image bg samsaddress1 = "Boring_ending.jpg"
+    #image bg samsaddress1 = "images/Boring_ending.jpg"
     
-    #image bg samsaddress2 = "Diverged_ending.jpg"
+    #image bg samsaddress2 = "images/Diverged_ending.jpg"
     
-    #image bg myletter = "True_ending.jpg"
+    #image bg myletter = "images/True_ending.jpg"
     
-#Background Music (6)
+#Background Music (9)
 
 #Music Theme (for Game): EDM/Instrument/Classic (If not composing) or Instrumental (Composed by team artist)
 #If not being composed by an artist in the team, refer to the notes below for song suggestions
@@ -163,20 +163,30 @@ define audio.maintheme = "music/maintheme.mp3"
 #Main Theme: Snail's House - Pixel Dream
 
 define audio.regularday = "music/regularday.mp3"
-#Sweetly Said by Mark Perez
 #Regular Day Theme: Laxo - Popsicles With Friends
 
 define audio.sweetly = "music/Sweetly_Said.mp3"
+#Sweetly Said by Mark Perez
 #Sweetly Theme: Snail's House - Love Story
 
 define audio.playful = "music/playful.mp3"
 #Playful Theme: TheFatRat - Unity
 
-define audio.bitterness = "bitterness.mp3"
+define audio.bitterness = "music/bitterness.mp3"
 #Bitterness Theme: Cole Sipe ft.Sophia Odiorne - Innocent
 
-define audio.emotion = "emotion.mp3"
+define audio.emotion = "music/Scarred_HeartofLove.mp3"
+#Scarred Heart (of Love) by Mark Perez
 #Emotion Theme: Lindsey Stirling ft.Lzzy Hale - Shatter Me
+
+define audio.sadness = "music/Scarred_HeartofStrength.mp3"
+#Scarred Heart (of Strength) by Mark Perez
+
+define audio.heartache = "music/heartache.mp3"
+#Cynthia's Endgame Theme
+
+define audio.insanity = "music/WhoAreYou.mp3"
+#Who Are You by Mark Perez
     
 label start:
 
@@ -1501,7 +1511,7 @@ label Ch1BY:
     
     s "Do you even get enough sleep?"
     
-    b "Aside from club activities in this club, student council, and the debate club, i've got a job to keep outside of school, I have to babysit my siblings, and I do all the chores in my house."
+    b "Aside from club activities in this club, student council, and the literature club, i've got a job to keep outside of school, I have to babysit my siblings, and I do all the chores in my house."
     
     s "That's right, you're the oldest in your family. You also work an afternoon shift at that cafe downtown."
     
@@ -2317,7 +2327,7 @@ label Ch1SY:
     
     "I really surprised myself with how I really chose to open myself up to others and it made me feel good about venting. Perhaps I should really do that more often and maybe i'll be able to actually patch things up with Mom."
     
-    "I don't know how things might change from here on out, I just hope it's for the better"
+    "I don't know how things might change from here on out, I just hope it's for the better."
 
 #End of Chapter 1S
     jump Ch2
@@ -2325,15 +2335,349 @@ label Ch1SY:
 #Chapter 1N: Overdramatization
 label Ch1No:
     
+    "I step outside the club room for a while..."
+        
     with dissolve
     with fade
     
     #stop music fadeout 1.0
     scene bg hallway
 
-    "I step outside the club room for a while..."
-
     "Bella soon follows suit after me."
+    
+    show Bella neutral
+    
+    b "Are you alright, Sam?"
+    
+    s "..."
+    
+    b "Sam?"
+    
+    s "I'll be honest, I just didn't feel like hanging around for a while."
+    
+    b "Really?"
+    
+    s "I don't know, it felt really awkward to be in that situation."
+    
+    b "How so?"
+    
+    s "It felt like I shouldn't be there. I don't know why, but I just needed to step out."
+    
+    b "Okay, but I want to do anything so it doesn't feel awkward to be in the club. Also, you belong there. Everyone does."
+    
+    b "I'm trying to make this club so you don't feel out of place here."
+    
+    s "..."
+    
+    b "Well, i'll just leave you be for a while."
+    
+    hide Bella neutral
+    
+    "Bella heads back into the clubroom, leaving me by myself on the hallway floor."
+    
+    with dissolve
+    
+    "I don't know why I chose to step out in the first place, yet here I am. I take a second to look back how I even got here in the first place."
+    
+    "I'm in this club which is supposed to be a peer club where we just hang out together, yet it feels wrong to me."
+    
+    "For one, it happened so fast, I was pushed by Bella to join and start a club overnight."
+    
+    "Two, I have to talk to two other people I hardly know, it was really awkward to even open up a conversation at first, even with Bella."
+    
+    "And three, I guess i'm just not feeling myself today. It feels weird to feel as if i'm not even in control of myself, but it's happening."
+    
+    "I might just be a little crazy right now, but I don't want anyone to bother me right now. Everything seems to move way too fast and a little dramatic at times, it just doesn't feel as if things really aren't happening naturally for me."
+    
+    "Suddenly I hear loud voices in the clubroom. It sounds as if there is an argument going on. I get up and peer through the door into clubroom to take a look."
+    
+    with dissolve
+    
+    scene bg clubroom
+    #play music playful loop
+    
+    show Bella talking at left
+    show Cynthia talking at right
+    
+    b "Take it back!"
+    
+    c "You're just a poser."
+    
+    b "Urgh..."
+    
+    c "I agreed to join this club thinking that its club members might actually be cool."
+    
+    c "You just look and sound fake. The way you try to be enthusiastic about school, looking to try too hard, and you trying to be student body president and kissing up to the teachers and other people? I don't buy your act."
+    
+    b "What do you mean? I actually really try to do everything here!"
+    
+    c "Okay, sure. I see you around the school and other clubs, you aren't actually good at anything. You're not athletic, you're not good in academics, you're not good in debating, organizing, and not good at being president of this made-up club you have here."
+    
+    c "I've actually been a club president and you have no ideas about actually organizing things. I can tell you forced your friend Sam to join you just so you can start this club and it shows he doesn't even want to be here by running out."
+    
+    b "Umm..."
+    
+    c "I don't think you know, but this isn't working out."
+    
+    b "What is?"
+    
+    c "The club you made up. Just how badly did you coax bribe your teacher to make this club, then you aren't even able to organize the club and even yourself."
+    
+    c "I'd prefer not being laughed at, but this club right now is a joke."
+    
+    b "How about you just fucking shut up!"
+    
+    "Bella's voice into a deep shout in contrast to her regular happy high-pitched voice."
+    
+    b "You're just an egotistical bitch who thinks her breast implants and overpriced skirts makes her better than me."
+    
+    b "You know what? Fine, i'm shitty at doing a bunch of stuff, but at least my trying. I know this club isn't much, but i'm just trying to do something."
+    
+    c "So what? You can be student body president of your class over some stupid popularity contest?"
+    
+    b "It isn't a popularity contest! It's an important responsibiity! I'm more qualified than half of those other idiots in my class anyway as I try harder than any of them could imagine as they just sit in class mindlessly at their phones!"
+    
+    c "You're trying to prove you're better than them? That's rich. You're not even real to begin with."
+    
+    b "For some whore who thinks you're better than me by messing with my campaign posters with your nasty nail polish, you shouldn't be judging who's real."
+    
+    c "At least my boobs are actually real you washboard!"
+    
+    show Ari talking
+    
+    a "Please, both of you should stop this meaningless argu-"
+    
+    b "Back off! This is between me and her."
+    
+    hide Ari talking
+    
+    "Bella pushes Ari aside and charges at Cynthia."
+    
+    c "Bring it on, you're not even as strong as a bunch of twigs."
+    
+    "A small scuffle starts to break out between the two ladies as they begin to pull each others' hair."
+    
+    "Ari looks to try to intervene, but only to be pushed away by the two."
+    
+menu:
+    
+    "Should you intervene?"
+    
+    "Yes.":
+        jump Ch1BE
+        
+    "No.":
+        jump Ch1D
+                
+#Ch1BE: Boring Ending I
+label Ch1BE:
+    
+    show Sam talking
+    
+    s "Stop! Why are you guys fighting? What the heck just happened?"
+    
+    show Bella sad at left
+    
+    b "Ack...Sam! Umm...It was just a misunderstanding."
+    
+    show Cynthia sad at right
+    
+    c "Sigh...I called her out."
+    
+    s "What?"
+    
+    c "I just wasn't happy that you weren't enjoying yourself in the club and Bella seems to have a hard time organizing things in the club and her other tasks."
+    
+    b "I just flipped out for being criticized over a that."
+    
+    s "Don't act like it was something small, I know that wouldn't be the case if I saw you guys tearing each others' hairs out."
+    
+    b "..."
+    
+    c "...I'm sorry. I take back what I said. I shouldn't have been so thoughtless of being too highly criticizing you and speaking badly of you."
+    
+    b "I'm sorry too for taking what you said too personally and should not reacted as I did."
+    
+    "The two apologize as if it was too rehearsed."
+    
+    s "Okay, that's enough."
+    
+    "They were quick enough to catch on to apologize, but I know this doesn't solve the problem."
+    
+    s "I heard a fair amount of it already. Aside from the insults and what I can tell, Cynthia called out Bella for not being a good club president for her poor organization and Bella is mad at Cynthia for being too quick to judge."
+    
+    c "..."
+    
+    b "..."
+    
+    "The two fall silent."
+    
+    s "Look Cynthia, I know she's not exactly too experienced at being a club president, but know she's learning and is truly trying her best. I know too well organization is not something she's very good at."
+    
+    s "We'll work on it together, okay? I don't know who hurt you with you accusing her acting fake, but Bella really is that hardworking and friendly. I can vouch for her there. So please, just give her some credit."
+    
+    s "Bella, I know you aren't the best person in taking criticism, but Cynthia has some fair points. You should also be more considerate of accepting her criticism."
+    
+    s "Neither of you are fully right, but also neither of you are completely wrong. You guys shouldn't fight over something simple as this. We're supposed to be friends right? We're gonna be stuck with each other for a while."
+    
+    s "Now, can we all just shake hands and get along?"
+    
+    show Bella neutral at left
+    show Cynthia neutral at right
+    
+    "The two look at each other, this time with more eased expressions and shake hands."
+    
+    b "I'm sorry, let's just start over from that, okay? I forgive you."
+    
+    c "Likewise, I guess I just assumed too much. I forgive you too."
+    
+    s "Jeez, now that's over I can relax."
+    
+    "I let out a huge sigh of relief for diffusing the situation."
+    
+    s "That was just an overly dramatic stupid little fight between you guys!"
+    
+    s "But i'm glad you guys made up."
+    
+    b "I'm sorry Sam, the stress just got to me and I snapped. I'll try to keep a cool head for you as a good club president should."
+    
+    c "Sigh...I was just too harshly direct with her. I have met some people who are just annoyingly bad, so i'm sorry for being direct."
+    
+    b "Come on, let's clean this mess up."
+    
+    hide Bella neutral at left
+    hide Cynthia neutral at right
+    
+    "Bella and Cynthia begin cleaning up and rearranging the desks in the clubroom."
+    
+    hide Sam talking
+    show Ari neutral
+    
+    a "Thanks for stepping in there, Sam. You sure know how to deal with a tense situation like such. I feel ashamed for not being able to do the same."
+    
+    s "I saw you try to get between them, you did what you could. Don't feel bad about it."
+    
+    a "Okay. Thanks for you consolation."
+    
+    s "Phew...Well, today was something. I think we'll still get along even though it got a little ugly there."
+    
+    a "Really? How so?"
+    
+    s "I know it doesn't make sense sometimes, but call it tough love."
+    
+    a "What is such a thing?"
+    
+    s "Good friends are 'mean' to their friends to show they care for them. I hope, if it gets close to a situation like this, they'll be able to still be friends and grow as friends."
+    
+    a "Hm. There is wisdom in your words."
+    
+    s "Oh no, it's just something I kinda picked up when I saw people who are friends."
+    
+    a "I see...Do you like to observe others as a pastime?"
+    
+    s "You mean people-watching? Yea, all the time."
+    
+    a "Interesting...I presum that's how you are able to sense people's feeling with such proficiency."
+    
+    s "I guess it just comes naturally."
+    
+    a "...Alright."
+    
+    hide Ari neutral
+    
+    "The four of us clean up the clubroom to tidy things up, but two hours of club time really passed by quickly that it was already time to go home."
+    
+    with dissolve
+    with fade
+    
+    scene bg sidewalk
+    
+    "Today I got to see how scary Bella and Cynthia are as scuffled. Hopefully they do get along even though Cynthia may not liker Bella at first."
+    
+    "I guess everything was a little too much for me. I'll try to take it easy with everyone when it comes to talking to them. Who knows what kind of sides i'll see from them."
+    
+#End of Chapter 1: Boring Ending
+    jump Ch2
+    
+#Ch1D: Diverged Ending Pt. I
+label Ch1D:
+    
+    show Ari talking
+    
+    a "Please, stop hurting each other, this is too far!"
+    
+    show Ari sad
+    
+    "Ari stands between them only to catch a heavy punch from Cynthia, knocking the wind out of him."
+    
+    a "Urk..."
+    
+    hide Ari sad
+    
+    "Ari collapses to the ground..."
+    
+    "Cynthia and Bella stop their fight to check on Ari with me, who's on the ground wheezing."
+    
+    s "Ari! Are you alright?"
+    
+    c "Oh my gosh, i'm so sorry! I-"
+    
+    b "We better stop this before we get in trouble with the supervisor. Let's get Ari to the nurses' office."
+    
+    a "I'll be alright, just let me rest for a while."
+    
+    "Ari speaks as he's gasping for air."
+    
+    c "Sigh..."
+    
+    b "We'll settle this later, but for now just keep it to yourself, Cynthia. I'll head to the nurses' office for an ice pack."
+    
+    hide Bella talking at left
+    
+    "Bella leaves the room for the nurses' office."
+    
+    c "...I think i'll just head home for now. I'll settle this with her tomorrow."
+    
+    hide Cynthia talking at right
+    
+    "Cynthia packs up her things and leaves the room."
+    
+    show Ari neutral
+    
+    a "Urk...At least they stopped for now. I am afraid that only temporarily settles the unhappy relationship brewing between them."
+    
+    s "...I should have stopped them. Then you wouldn't have gotten hurt."
+    
+    a "Think nothing of it. You should not place the blame on yourself."
+    
+    show Sam sad at left
+    
+    s "You'll be alright?"
+    
+    a "Do not worry about me. I will clean things up here. I sense you are not in a pleasant mood after this. I suggest you spend some time alone and go home."
+    
+    s "...Fine, i'll just go do that. Sorry."
+    
+    hide Sam sad at left
+    hide Ari neutral
+    
+    with dissolve
+    with fade
+    
+    scene bg sidewalk
+    
+    "I head home after the incident and spend time mulling it over."
+    
+    "We were lucky enough to be sent off with a warning by the teacher as nobody was harmed. Ari got knocked, but he turned out to be completely fine after a short rest. Bella and Cynthia are surely unhappy with each other, but hopefully things will be fine with them."
+
+    "I felt like I wasn't really me today. I should have stepped in to stop them, but I was just to scared to do that."
+    
+    "I shouldn't have been because that was my friends that was just fighting. What kind of friend am I then?"
+    
+    "I guess i'll try to settle things with everyone if I can next time..."
+
+#End of Chapter 1: Diverged Ending
+    jump Ch2
 
 #Chapter 2: The Butterfly Effect
 label Ch2:
