@@ -25,6 +25,8 @@ define sfs = Character("A Female Student")
 define sms = Character("A Male Student")
 
 # Character Sprites (24)
+
+image Sam = Placeholder("boy")
     
     #image Sam neutral = "images/Sam_neutral.png"
     
@@ -40,7 +42,7 @@ define sms = Character("A Male Student")
     
     
     
-    #image Bella neutral = "images/Bella_neutral.png"
+image Bella neutral = "images/Bella_neutral.png"
         
     #image Bella happy = "images/Bella_happy.png"
     
@@ -54,7 +56,8 @@ define sms = Character("A Male Student")
     
     
         
-           
+image Ari = Placeholder("boy")
+
     #image Ari neutral = "images/Ari_neutral.png"
     
     #image Ari happy = "images/Ari_happy.png"   
@@ -460,7 +463,7 @@ label start:
     
     s "Why's he carrying all those books home? There can't be that much work in class already! Must be really a nerd."
     
-    "As he was standing there stone-faced, a bunch of kids run past him and knock his books out of his arms, his glasses flying, and landing on the ground, but he didn't even react."
+    "As he was standing there stone-faced, a bunch of kids run past him and knock his books out of his arms and landing on the ground, but he didn't even react."
     
     "The kids run off not even knowing of their small accident, but he doesn't even raise a single complaint. Just another pained look."
     
@@ -468,7 +471,7 @@ label start:
     
     #play music bitterness loop
     
-    s "Are you okay? Those kids didn't even realize they knocked you over. Here's your glasses."
+    s "Are you okay? Those kids didn't even realize they knocked you over."
     
     "He first stares at me with a bewildered look."
     
@@ -1138,7 +1141,7 @@ menu:
 #Ch1A Accepted
 label Ch1AY:
 
-    $ Ari_Ch1 = True
+    $ persistent.Ch1ACG_unlocked = True
 
     show Sam neutral
     
@@ -1475,7 +1478,7 @@ menu:
 #Chapter 1B Accepted
 label Ch1BY:
 
-    $ Bella_Ch1 = True
+    $ persistent.Ch1BCG_unlocked = True
 
     s "How about we start with something simple to talk about?"
     
@@ -1854,6 +1857,8 @@ menu:
 #Ch1C Accepted
 label Ch1CY:
     
+    $ persistent.Ch1CCG_unlocked = True
+    
     s "No, really. Let's talk about it."
     
     show Cynthia sad
@@ -2104,6 +2109,8 @@ label Ch1CY:
 
 #Chapter 1S: An Only Child
 label Ch1S:
+    
+    $ persistent.Ch1SCG_unlocked = true
     
     with dissolve
     with fade
@@ -2421,7 +2428,7 @@ label Ch1No:
     
     b "What is?"
     
-    c "The club you made up. Just how badly did you coax bribe your teacher to make this club, then you aren't even able to organize the club and even yourself."
+    c "The club you made up. Just how badly did you bribe your teacher to make this club, then you aren't even able to organize the club and even yourself."
     
     c "I'd prefer not being laughed at, but this club right now is a joke."
     
@@ -2429,13 +2436,13 @@ label Ch1No:
     
     "Bella's voice into a deep shout in contrast to her regular happy high-pitched voice."
     
-    b "You're just an egotistical bitch who thinks her breast implants and overpriced skirts makes her better than me."
+    b "You're just an egotistical bitch who thinks her breast implants and overpriced clothes makes her better than me."
     
     b "You know what? Fine, i'm shitty at doing a bunch of stuff, but at least my trying. I know this club isn't much, but i'm just trying to do something."
     
     c "So what? You can be student body president of your class over some stupid popularity contest?"
     
-    b "It isn't a popularity contest! It's an important responsibiity! I'm more qualified than half of those other idiots in my class anyway as I try harder than any of them could imagine as they just sit in class mindlessly at their phones!"
+    b "It isn't a popularity contest! It's a huge position! I'm more qualified than half of those other idiots in my class anyway as I try harder than any of them could imagine as they just sit in class mindlessly at their phones!"
     
     c "You're trying to prove you're better than them? That's rich. You're not even real to begin with."
     
@@ -2459,15 +2466,25 @@ label Ch1No:
     
     "Ari looks to try to intervene, but only to be pushed away by the two."
     
-menu:
+label redo_Ch1BE:
     
-    "Should you intervene?"
+    "Should I intervene?"
+    
+menu:
     
     "Yes.":
         jump Ch1BE
         
     "No.":
+        "Are you sure?"
+menu:
+    
+    "Yes.":
         jump Ch1D
+        
+    "No.":
+        jump redo_Ch1BE
+        
                 
 #Ch1BE: Boring Ending I
 label Ch1BE:
@@ -2592,7 +2609,7 @@ label Ch1BE:
     
     scene bg sidewalk
     
-    "Today I got to see how scary Bella and Cynthia are as scuffled. Hopefully they do get along even though Cynthia may not liker Bella at first."
+    "Today I got to see how scary Bella and Cynthia are as scuffled. Hopefully they do get along even though Cynthia may not like Bella at first."
     
     "I guess everything was a little too much for me. I'll try to take it easy with everyone when it comes to talking to them. Who knows what kind of sides i'll see from them."
     
@@ -2601,6 +2618,9 @@ label Ch1BE:
     
 #Ch1D: Diverged Ending Pt. I
 label Ch1D:
+    
+    $ Ch1D_unlocked = True
+    $ renpy.block_rollback()
     
     show Ari talking
     
@@ -2675,12 +2695,39 @@ label Ch1D:
     "I shouldn't have been because that was my friends that was just fighting. What kind of friend am I then?"
     
     "I guess i'll try to settle things with everyone if I can next time..."
+    
+    with dissolve
+    with fade
+    
+    "The next day on the walk to school to pick up Cynthia, the two girls meet face to face."
+    
+    show Bella happy at left
+    show Cynthia happy at right
+    
+    c "Glad we settled this responsibly. Right Bella?"
+    
+    b "Right. I will just continue with my duties as president of the club. Let's just forget this incident ever happened."
+    
+    c "What incident?"
+    
+    b "Exactly."
+    
+    "It's obvious to see there is tension between the two, but they seem to have made a ceasefire..."
+    
+    show Ari sad
+    
+    a "..."
+    
+    "I can sense the anger between them behind those noonchalant smiles. Hopefully it doesn't get any worse as it is for them. It also shows in Ari's frown that it truly makes him unhappy as well to see them be like this."
+    
+    "..."
 
 #End of Chapter 1: Diverged Ending
     jump Ch2
 
 #Chapter 2: The Butterfly Effect
 label Ch2:
+
 
     # This ends the game.
 
