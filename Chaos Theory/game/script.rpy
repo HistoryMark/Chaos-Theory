@@ -42,7 +42,7 @@ image Sam = Placeholder("boy")
     
     
     
-image Bella neutral = "images/Bella_neutral.png"
+    #image Bella neutral = "images/Bella_neutral.png"
         
     #image Bella happy = "images/Bella_happy.png"
     
@@ -84,7 +84,7 @@ image Ari = Placeholder("boy")
     
     #image Cynthia crying = "images/Cynthia_crying.png"
     
-#Background Scenes (14)
+#Background Scenes (12)
 
     #image bg schoolyard = "images/schoolyard.jpg"
 
@@ -102,8 +102,6 @@ image Ari = Placeholder("boy")
     
     #image bg lounge = "images/lounge.jpg"
     
-    #image bg festival = "images/festival.jpg"
-    
     #image bg mall = "images/mall.jpg"
     
     #image bg conferencecenter = "images/conferencecenter.jpg"
@@ -111,8 +109,6 @@ image Ari = Placeholder("boy")
     #image bg park = "images/park.jpg"
     
     #image bg tower = "images/tower.jpg"
-    
-    #image bg barrenfield = "images/barrenfield.jpg"
     
 #Character Graphics (9)
 
@@ -173,14 +169,13 @@ define audio.sweetly = "music/Sweetly_Said.mp3"
 #Sweetly Theme: Snail's House - Love Story
 
 define audio.playful = "music/playful.mp3"
-#Playful Theme: TheFatRat - Unity
+#Playful Theme: WRLD & Richard Caddock - See You
 
 define audio.bitterness = "music/bitterness.mp3"
 #Bitterness Theme: Cole Sipe ft.Sophia Odiorne - Innocent
 
 define audio.emotion = "music/Scarred_HeartofLove.mp3"
 #Scarred Heart (of Love) by Mark Perez
-#Emotion Theme: Lindsey Stirling ft.Lzzy Hale - Shatter Me
 
 define audio.sadness = "music/Scarred_HeartofStrength.mp3"
 #Scarred Heart (of Strength) by Mark Perez
@@ -300,13 +295,9 @@ label start:
     
     "Before I can protest, she runs off to her classes."
     
-    s "Ack...Okay, whatever, i'll indulge her."
-    
-    "I swear my story definitely sounds like the start to every shounen anime i've watched."
-    
-    "But this is reality, and the lives of real people are actually boring."
+    s "Ack...Okay, whatever..."
 
-    s "Well, that's enough monologue wallowing about how boring everything here is. Time for another day of school..."
+    s "Time for another day of school..."
 
     hide Sam neutral
     with dissolve
@@ -315,8 +306,6 @@ label start:
     scene bg classroom
     
     show Sam neutral
-    
-    s "Phew, finally the teacher stopped droning on and on. I know she's trying to clear with eveything, but there's always the idiots who will ask the same questions."
     
     "With that, the another school day ended with seemingly endless classes."
     
@@ -407,7 +396,7 @@ label start:
     
     b "Would you join if it was just me and a small group of friends?"
     
-    s "...Maybe."
+    s "...."
     
     b "Hmm...I've got an idea, wait here. I'm gonna ask a teacher something about the clubs."
     
@@ -560,7 +549,7 @@ label start:
 
     s "What would make you say that?"
 
-    a "I reside in the city with my aunt, but she's occupied with work frequently. I'm studying here and the rest of my family is still back home in Japan."
+    a "I reside in the city with my aunt, but she's occupied with work frequently. I am studying here and the rest of my family is still back home in Japan."
 
     s "Oh...I live with my family here, but I never see my parents much because they're working, so I guess we kinda have that in common. Also, you speak English way too well to be Japanese."
 
@@ -1062,8 +1051,6 @@ label Ch1A:
         
     a "Just reading some material for my classes. Would you be interested in reading about thermodynamics?"
     
-    show Sam embarrassed at right
-    
     s "Thermo-what now?"
     
     a "Thermodynamics, studying the transfer of energy through systems."
@@ -1071,8 +1058,6 @@ label Ch1A:
     s "In simple terms that would be..."
     
     a "Looking at how objects heat up and cool down."
-    
-    show Sam neutral at right
     
     s "Oh, cool. For what class is this for?"
     
@@ -1090,41 +1075,15 @@ label Ch1A:
     
     a "There's always someone smarter than you. I am just another student like many others."
     
-    s "Ok, but who is smarter than you around here?"
+    s "If you say so, but you're definitely not like a lot of us here."
     
-    a "I may seem very knowledgeable about the sciences, but in actuality, I am only just a savant at these types of subjects."
-    
-    show Sam embarrassed at right
-    
-    s "What does savant mean?"
-    
-    show Ari talking
-    
-    a "It describes a person that is only skilled at one talent."
-    
-    show Sam neutral at right
-    
-    s "Really?"
-    
-    show Ari embarrassed
-    
-    a "I still have trouble engaging in a conversation with others, composing and dictating a speech, and many other skills. I have much yet to learn."
-    
-    s "You're a genius though! Not a lot of highly students even at your level would be able to easily understand stuff like that!"
-    
-    show Ari neutral
-    
-    a "True, but I feel as if I do not have the aptitude to be skilled in many other things."
-    
-    s "Come on, you gotta be a little athletic, right?"
-    
-    a "I am rather feeble."
-    
-    s "I don't think so, I think you're stronger than you look."
-    
-    s "Also, I think you're short changing yourself, I bet you're really amazing at a bunch of stuff if you tried."
+    show Ari sad
     
     a "..."
+    
+    "Suddenly his mood changes as he shows a downcast stare at his books."
+    
+    "I only meant what I said as a compliment, but it seems to have an opposite effect on him. Did I touch on something sensitive to him?"
     
     hide Sam neutral at right
     
@@ -1143,15 +1102,53 @@ label Ch1AY:
 
     $ persistent.Ch1ACG_unlocked = True
 
-    show Sam neutral
+    show Sam talking at right
     
-    s "Come on, Ari! You've gotta be a genius at other things too other than there-mo-dee-nameks!"
+    s "Oh, sorry did I say something wrong?"
     
-    show Ari neutral at right
+    show Ari neutral
     
-    a "Thermodynamics. Anyway, I suppose it would not hurt to try other things. What do you propose we should try?"
+    a "No, Sam. You are fine. It's just I have been feeling a little down lately. I find myself so unable to focus in my studies. It is quite hard for me to even read my class material."
     
-    s "Oh, shoot. I didn't think I would get this far."
+    s "Are you doing alright in class?"
+    
+    show Ari sad
+    
+    a "Yes, but that's not the issue. Or is it? I really do not know."
+    
+    a "I am fairly content as it is, no worries of food, shelter, or other necessities. Good grades, no troubles with my environment, but I still find myself feeling down."
+    
+    "He stares at the ground with a blank stare similarly to how I first met him."
+    
+    show Ari neutral
+    
+    a "Sorry to make you have to listen to my ramble. Please do not worry about me. Perhaps I just need some time alone."
+    
+    s "Err..."
+    
+    "It feels extremely wrong to just leave him like this, but I am unsure what to do."
+    
+    "Until it hit me. Literally, I was messing around with a frisbee I found in the room as Ari was talking and it bounced off the wall and hit me square in the head."
+    
+    show Sam embarrassed at right
+    
+    s "Ouch! That's on me."
+    
+    s "Wait...That's it!"
+    
+    a "Come again?"
+    
+    s "You know what you need? Some time to unwind and relax. I'll let you know what I do when I feel down like this!"
+    
+    a "What would that be?"
+    
+    show Sam happy at right
+    
+    s "Playing games! Whether it's videogames or just sports, I always feel better playing. So why don't we play in the field?"
+    
+    a "I am not against this idea. What do you suppose we do?"
+    
+    s "Hmmm, let's see..."
     
     s "Have you ever played ultimate frisbee?"
     
@@ -1165,7 +1162,7 @@ label Ch1AY:
     
     s "Is it okay if we go out to the field today and play ultimate frisbee?"
     
-    hide Ari neutral at right
+    hide Sam neutral at right
     show Cynthia neutral at right
     
     c "That sounds like fun, sure why not?"
@@ -1173,14 +1170,14 @@ label Ch1AY:
     b "Seems like everyone is up for it. I'll just ask my teacher if it's okay."
     
     hide Bella neutral at left
-    show Ari neutral at left
+    show Sam neutral at left
     
     a "Might as well start gathering our belongings to move to the field."
     
     s "Right."
     
-    hide Ari neutral at left
-    hide Sam neutral
+    hide Sam neutral at left
+    hide Ari neutral
     hide Cynthia neutral at right
     
     "And so, we got the okay from Bella's teacher and got together to play some frisbee at the field."
@@ -1208,13 +1205,9 @@ label Ch1AY:
     
     s "Alright, so the rules are simple."
     
-    s "We make 2 teams, each team has to try to pass the frisbee to each teammate and reach their own end of their field. When the other team intercepts it, or a team gets to their end the other team gets their turn with the frisbee and starts off at the scoring team's end or where the frisbee was intercepted."
+    s "I quickly explain the simple rules of the game to everyone. In a way, it's kinda like football with a frisbee."
     
-    s "If the frisbee is dropped and nobody catches it, it goes back to the team and the player who threw it and has 3 other tries to pass it to a teammate until the frisbee goes to the other team and starts right where the other team left off and switches sides towards their end of the field."
-    
-    s " You gotta try to score by passing to and coordinating with your teammate to get the frisbee to your end during your turn with the frisbee and try to stop the other team when they have the frisbee."
-    
-    s "For our little game, it's a best of 3."
+    s "For our little game, it's a best of 3 goals."
     
     s "It seems a lot of rules, but you'll get the hang of it."
     
@@ -1224,11 +1217,11 @@ label Ch1AY:
     
     show Bella neutral at left
     
-    b "How about you and I Sam make a team, and Ari and Cynthia are the other team?"
+    b "How about you and I make a team, and Ari and Cynthia are the other team?"
     
     show Cynthia neutral at right
     
-    c "I have no objections."
+    c "Seems fine with me."
     
     hide Bella neutral at left
     show Ari neutral at left
@@ -1340,11 +1333,7 @@ label Ch1AY:
     
     b "It was an accident so we don't have to serve detention, but we still have to pay for the broken equipment."
     
-    s "Oh crap. I got it, although my parents won't be too happy with that. It's my fault anyway. How much for the beakers?"
-    
-    b "You broke 3 large beakers, the teacher told me you owe $100 or so."
-    
-    s "Urk..."
+    s "Oh crap. I got it, although my parents won't be too happy with that."
     
     show Sam neutral at right
     
@@ -1361,11 +1350,19 @@ label Ch1AY:
     
     s "You're not only really athletic, you're really sneaky."
     
-    s "And you say you're only good at science stuff."
-    
     show Ari embarrassed at left
     
+    a "Really? I just went out there and lost myself in the game. Thank you for that fun game."
+    
+    "His demeanor completely changed after the game. I guess it worked in cheering him up."
+    
+    show Sam happy at right
+    
+    s "Hehehe..."
+    
     a "Come on, let's go help clean up the mess we made now."
+    
+    show Sam neutral at right
     
     s "Right."
     
@@ -1463,6 +1460,7 @@ label Ch1B:
     b "I don't even know where to start. Ummm..."
     
     hide Sam happy at right
+    
     "Bella seems to be tongue-tied with her words. Usually she's very talkative and this is one of the rare moments where she becomes mute."
     
 menu:
@@ -1828,15 +1826,15 @@ label Ch1C:
     
     c "Well, they say you find someone more attractive or likeable when you stare into their eyes quite a while."
     
-    s "You are playing mind games with me in such a way I wonder if they're games at all."
+    s "You are playing mind games with me that I wonder if they're even mind games at all."
     
-    c "Hehehe....."
+    c "Hm..."
     
     "She chuckles a little deviously."
     
     s "Anyway, about you, I heard you had a falling out with your last club. What happened with your club?"
     
-    c "Oh, you are curious about that?"
+    c "Oh, you're curious about that?"
     
     s "It gave me something to talk about with you I guess."
     
@@ -1955,7 +1953,7 @@ label Ch1CY:
     
     c "I know you guys are different, right? You guys have this club to just hang out, and so i'll do the same."
     
-    s "Kinda hard to believe the same overdramatic thing that happens to bands happened to your little club."
+    s "Kinda hard to believe that happened to your little club."
     
     c "I didn't think it would happen as well, but as soon as we just got paid in a daily basis, everyone just expected to get paid. So when we didn't get paid as much, you see what happened with that."
     
@@ -2254,7 +2252,7 @@ label Ch1SY:
     
     c "We hear about her in the news."
     
-    a "She's the CEO of the multi-billionaire real estate company. She innovated urban planning and housing systems in communities changing the landscape of realty. She made it on a plethora magazines for that."
+    a "She's the CEO of the multi-billionaire real estate company. She innovated urban planning and housing systems in communities changing the landscape of realty. She appeared on a plethora magazines for her accomplishments."
     
     s "You guys know more about her than I know of her."
     
@@ -2342,6 +2340,8 @@ label Ch1SY:
 #Chapter 1N: Overdramatization
 label Ch1No:
     
+    "After that, the conversation completely died. I just stood there completely mute and had nothing to talk about."
+    
     "I step outside the club room for a while..."
         
     with dissolve
@@ -2396,75 +2396,157 @@ label Ch1No:
     
     "I might just be a little crazy right now, but I don't want anyone to bother me right now. Everything seems to move way too fast and a little dramatic at times, it just doesn't feel as if things really aren't happening naturally for me."
     
-    "Suddenly I hear loud voices in the clubroom. It sounds as if there is an argument going on. I get up and peer through the door into clubroom to take a look."
-    
     with dissolve
     
     scene bg clubroom
     #play music playful loop
     
-    show Bella talking at left
+    "I get back into the clubroom to try talking to everyone again, but every conversation just ended in small talk."
+    
+    "Everytime I try to make conversation, it just ends quickly in silence."
+    
+    "For once, i'm speechless as I don't know what to do."
+    
+    "I'm not even sure I should even be here. I'd rather see myself going home."
+    
+    show Bella talking
+    
+    b "How's it going so far guys?"
+    
     show Cynthia talking at right
     
-    b "Take it back!"
+    c "This doesn't seem to get us anywhere."
     
-    c "You're just a poser."
+    show Ari sad at left
     
-    b "Urgh..."
+    a "..."
     
-    c "I agreed to join this club thinking that its club members might actually be cool."
+    b "Hmmm....Ooh, I know what could be a good icebreaker!"
     
-    c "You just look and sound fake. The way you try to be enthusiastic about school, looking to try too hard, and you trying to be student body president and kissing up to the teachers and other people? I don't buy your act."
+    c "What would that be?"
     
-    b "What do you mean? I actually really try to do everything here!"
+    b "Let's find and share our favorite poems!"
     
-    c "Okay, sure. I see you around the school and other clubs, you aren't actually good at anything. You're not athletic, you're not good in academics, you're not good in debating, organizing, and not good at being president of this made-up club you have here."
+    c "Really? Is that a good idea?"
     
-    c "I've actually been a club president and you have no ideas about actually organizing things. I can tell you forced your friend Sam to join you just so you can start this club and it shows he doesn't even want to be here by running out."
+    b "I just joined the poetry club and this is the first thing that we did. We really got to know everyone and their style and taste in poetry!"
     
-    b "Umm..."
+    b "Come on, it'll be fun!"
     
-    c "I don't think you know, but this isn't working out."
+    hide Cynthia talking at right
+    show Sam neutral at right
     
-    b "What is?"
+    s "Alright, i'll give it a try."
     
-    c "The club you made up. Just how badly did you bribe your teacher to make this club, then you aren't even able to organize the club and even yourself."
+    b "Great! Let's take 15 minutes to go look for our favorite poems!"
     
-    c "I'd prefer not being laughed at, but this club right now is a joke."
+    "All of us get on our phones to go look for poems except Ari, who got out a small notebook and started writing his own poem."
     
-    b "How about you just fucking shut up!"
+    "I really don't know what poem to choose, so I just looked up one of the most popular poems online."
     
-    "Bella's voice into a deep shout in contrast to her regular happy high-pitched voice."
+    hide Sam neutral at right
+    hide Ari sad at left
+    hide Bella talking
     
-    b "You're just an egotistical bitch who thinks her breast implants and overpriced clothes makes her better than me."
+    "15 minutes pass, then Bella calls us together."
     
-    b "You know what? Fine, i'm shitty at doing a bunch of stuff, but at least my trying. I know this club isn't much, but i'm just trying to do something."
+    with dissolve
+    with fade
     
-    c "So what? You can be student body president of your class over some stupid popularity contest?"
+    show Bella neutral
     
-    b "It isn't a popularity contest! It's a huge position! I'm more qualified than half of those other idiots in my class anyway as I try harder than any of them could imagine as they just sit in class mindlessly at their phones!"
+    b "Alright! It's time to share our poems! Again we'll share poems together 1-on-1, so it feels really personal and avoid anyone being too shy to share."
     
-    c "You're trying to prove you're better than them? That's rich. You're not even real to begin with."
+    show Cynthia neutral at left
     
-    b "For some whore who thinks you're better than me by messing with my campaign posters with your nasty nail polish, you shouldn't be judging who's real."
+    c "Makes sense I guess. Let's see what you guys picked then."
     
-    c "At least my boobs are actually real you washboard!"
+    hide Bella neutral
+    hide Cynthai neutral at left
+    
+    "I go around and share my poem with everyone. I just chose a poem by this popular poet and it looked simple enough. I liked it myself, but I really couldn't understand completely what it said. What's so special about the end of a sidewalk?"
+    
+    "Everyone really liked my poem and I really like everyone else's poems but I couldn't say much other than that and every conversation ended with me just saying 'I liked it'."
+    
+    show Bella neutral
+    
+    b "So, what did you think Sam?"
+    
+    show Sam sad at left
+    
+    s "I liked it."
+    
+    b "Okay, but you don't seem like you do. Are you alright?"
+    
+    s "I just need some time alone."
+    
+    "Again, I step out of the room for some alone time."
+    
+    hide Bella neutral
+    hide Sam sad at left
+    
+    scene bg hallway
+    #stop music fadeout 1.0
+    
+    "I'm just not feeling myself right now. I feel out of place with everyone there, even with Bella."
+    
+    "Maybe I shouldn't have come here today. I think I forced myself too much to be here."
+    
+    "After a few minutes I just blankly stare at the floor, then I decided to head back in the room."
+    
+    "I take a peek through the door first before entering."
+    
+    show Bella neutral at left
+    
+    b "So what did you think?"
+    
+    show Cynthia talking at right
+    
+    c "It's ok, I guess..."
+    
+    b "Ok?"
+    
+    c "It just seems too simple-minded in its style and word choice."
+    
+    b "It's simple, but it's complex from how simple it is."
+    
+    c "Sure, but it would be better if more complex vocabulary was used. It would have more meaning to it rather than just using very simple words."
+    
+    b "Using bigger and more words would only make it more confusing and not necessarily make it better! I think it should be straight to the point when you tell a story like that."
+    
+    c "It's only confusing when you don't think when you actually read. A poem can mean many things to a reader and that's the beauty of it."
+    
+    b "What do you mean actually reading?"
+    
+    c "Actually paying attention to what you read, of course you're too young to understand that yet."
+    
+    b "Are you belittling me?"
+    
+    c "If that's how you see it."
+    
+    b "Just because I have a more simple taste and style doesn't make it not worth looking at! I'll have you know Ari and Sam like my poem."
+    
+    c "If you say so. They're porbably just being polite. Ari and Sam actually liked my poem."
+    
+    b "They like my poems better!"
+    
+    c "No, they appreciate mine more."
+    
+    b "Shut up!"
+    
+    c "Oh, this little girl is telling me to shut up?"
+    
+    b "Yeah, be quiet you bimbo!"
+    
+    "Suddenly, both Bella and Cynthia are enraged from their insults."
     
     show Ari talking
     
-    a "Please, both of you should stop this meaningless argu-"
+    a "Please, can we just calm down here-"
     
-    b "Back off! This is between me and her."
+    c "Backoff! This is between me and her."
     
-    hide Ari talking
-    
-    "Bella pushes Ari aside and charges at Cynthia."
-    
-    c "Bring it on, you're not even as strong as a bunch of twigs."
-    
-    "A small scuffle starts to break out between the two ladies as they begin to pull each others' hair."
-    
-    "Ari looks to try to intervene, but only to be pushed away by the two."
+    b "Is it now?"
     
 label redo_Ch1BE:
     
@@ -2499,29 +2581,27 @@ label Ch1BE:
     
     show Cynthia sad at right
     
-    c "Sigh...I called her out."
+    c "Urk..."
     
     s "What?"
     
-    c "I just wasn't happy that you weren't enjoying yourself in the club and Bella seems to have a hard time organizing things in the club and her other tasks."
+    c "Err..."
     
-    b "I just flipped out for being criticized over a that."
+    b "It was a small disagreement."
     
-    s "Don't act like it was something small, I know that wouldn't be the case if I saw you guys tearing each others' hairs out."
+    s "Don't act like it was something small, I know that wouldn't be the case if I saw you guys yelling at each other."
     
     b "..."
     
-    c "...I'm sorry. I take back what I said. I shouldn't have been so thoughtless of being too highly criticizing you and speaking badly of you."
+    c "...I'm sorry. I take back what I said. I shouldn't have been so thoughtless of being too highly criticizing and speaking badly of you."
     
     b "I'm sorry too for taking what you said too personally and should not reacted as I did."
-    
-    "The two apologize as if it was too rehearsed."
     
     s "Okay, that's enough."
     
     "They were quick enough to catch on to apologize, but I know this doesn't solve the problem."
     
-    s "I heard a fair amount of it already. Aside from the insults and what I can tell, Cynthia called out Bella for not being a good club president for her poor organization and Bella is mad at Cynthia for being too quick to judge."
+    s "I heard a fair amount of it already. Aside from the insults and what I can tell, Cynthia called out Bella for her different style in poetry and Bella is mad at Cynthia for being too quick to judge."
     
     c "..."
     
@@ -2529,9 +2609,9 @@ label Ch1BE:
     
     "The two fall silent."
     
-    s "Look Cynthia, I know she's not exactly too experienced at being a club president, but know she's learning and is truly trying her best. I know too well organization is not something she's very good at."
+    s "Look Cynthia, I know both of you are very passionate about poetry from how you described your different styles, but everyone is entitled to their own opinion. The beauty of it is freely expressing yourself through words in your own way. She has a simple and different style, but it doesn't make her style invalid."
     
-    s "We'll work on it together, okay? I don't know who hurt you with you accusing her acting fake, but Bella really is that hardworking and friendly. I can vouch for her there. So please, just give her some credit."
+    s "Let's just agree on that together, okay? Bella can make poems with the best of them. I know you're also experienced in the art, but she has a case to be made too. She was passionate enough to join the poetry club to explore her interest just give her some credit."
     
     s "Bella, I know you aren't the best person in taking criticism, but Cynthia has some fair points. You should also be more considerate of accepting her criticism."
     
@@ -2580,11 +2660,11 @@ label Ch1BE:
     
     a "Really? How so?"
     
-    s "I know it doesn't make sense sometimes, but call it tough love."
+    s "I know it doesn't make sense sometimes, but some people say opposites attract."
     
-    a "What is such a thing?"
+    a "What do you mean?"
     
-    s "Good friends are 'mean' to their friends to show they care for them. I hope, if it gets close to a situation like this, they'll be able to still be friends and grow as friends."
+    s "They are completely different in how they express themselves, but it could show they could be best friends. I hope, if it gets close to a situation like this, they'll be able to still be friends and grow as friends."
     
     a "Hm. There is wisdom in your words."
     
@@ -2594,7 +2674,7 @@ label Ch1BE:
     
     s "You mean people-watching? Yea, all the time."
     
-    a "Interesting...I presum that's how you are able to sense people's feeling with such proficiency."
+    a "Interesting...I presume that's how you are able to sense people's feeling with such proficiency."
     
     s "I guess it just comes naturally."
     
@@ -2621,6 +2701,18 @@ label Ch1D:
     
     $ Ch1D_unlocked = True
     $ renpy.block_rollback()
+    
+    "Cynthia slaps Bella across the face in anger."
+    
+    c "Show some respect!"
+    
+    b "I'll show you respect!"
+    
+    "Bella in return slaps Cynthia twice as hard."
+    
+    c "Oh, you insolent-"
+    
+    "Quickly the two begin fighting in anger. Ari tries to intervene between them."
     
     show Ari talking
     
@@ -2684,6 +2776,45 @@ label Ch1D:
     with dissolve
     with fade
     
+    scene bg hallway
+    
+    "I was about to head home after this fight happened, until I catch a glimpse of Bella and Cynthia talking to each other in the hallway. I only take a small peek around the corner to observe them."
+    
+    show Cynthia talking at left
+    show Bella talking at right
+    
+    c "I think we've already established that we don't like each other."
+    
+    b "With the way you insulted me and my class, you flirting with Sam, and how you belittle me, yeah I see that."
+    
+    b "I see you flirt with every guy you see just to get your way you despicable-."
+    
+    c "Let's just work this out okay?"
+    
+    b "Hmph."
+    
+    c "Sam would definitely not like us fighting and you obviously don't want to lose him right?"
+    
+    b "Urk..."
+    
+    c "Let's just pretend none of this happened, okay? Let's play nice around your friend."
+    
+    b "You better keep to that promise."
+    
+    show Cynthia happy at left
+    
+    c "Happy to settle that properly!"
+    
+    hide Cynthia happy at left
+    
+    "Cynthia struts away as Bella stands with her fists tightened."
+    
+    b "Why that flirting b-."
+    
+    hide Bella talking at right
+    
+    "Bella storms off at a different direction."
+    
     scene bg sidewalk
     
     "I head home after the incident and spend time mulling it over."
@@ -2720,14 +2851,178 @@ label Ch1D:
     
     "I can sense the anger between them behind those noonchalant smiles. Hopefully it doesn't get any worse as it is for them. It also shows in Ari's frown that it truly makes him unhappy as well to see them be like this."
     
-    "..."
+    hide Ari sad
+    hide Bella happy at left
+    hide Cynthia happy at right
+    
+    with fade
+    with dissolve
+    
 
 #End of Chapter 1: Diverged Ending
-    jump Ch2
+    jump Ch2Alt
 
 #Chapter 2: The Butterfly Effect
 label Ch2:
-
+    
+    with fade
+    with dissolve
+    
+    scene bg sidewalk
+    
+    "After the first few months of being in the club, i'll admit I actually really enjoy hanging out at school now that to me, there's a good reason to go to school."
+    
+    "There's a place for me to do stupid stuff with friends and not just myself."
+    
+    "I really started to grow closely as friends to Ari and Cynthia and Bella helping me out."
+    
+    "We spend the first half of the semester just hanging out, telling stupid stories, and complaining together on how disgusting the school is."
+    
+    "At first, it was really awkward talking to each other, but then it didn't."
+    
+    "Before I knew it, we we're closer than we thought as friends throwing jokes at each other."
+    
+    show Bella talking at left
+    show Sam neutral
+    
+    b "I can't find my pin in my backpack anywhere..."
+    
+    s "Really? It's right there."
+    
+    b "Where?"
+    
+    s "Under there."
+    
+    b "Under where?"
+    
+    show Sam happy
+    
+    s "Hehehehe..."
+    
+    b "Haha, very funny."
+    
+    show Cynthia talking at right
+    
+    c "Do you really have any better jokes?"
+    
+    hide Bella talking at left
+    show Ari talking at left
+    show Sam neutral
+    show Cynthia neutral at right
+    
+    a "Ooh. I have one."
+    
+    c "Let's hear a better joke."
+    
+    a "Okay, I will give it a try."
+    
+    a "Hmmm...I got it!"
+    
+    a "Why do chemists make such bad doctors?"
+    
+    s "Why?"
+    
+    a "Because if you cannot Helium or Curium, you Barium!"
+    
+    c "Heheh, not bad."
+    
+    s "Huh?"
+    
+    show Ari neutral at left
+    
+    a "It's elementary!"
+    
+    s "Right..."
+    
+    hide Sam neutral
+    show Bella neutral
+    hide Ari neutral at left
+    hide Cynthia neutral at right
+    
+    b "He's got puns to boot that."
+    
+    "Aside from my bad jokes, this is now how every morning goes for me."
+    
+    "Walking to school with 3 other friends, just casually talking about all kinds of stuff and joking around."
+    
+    "I'll admit we talk about both the weiredest things and the most boring things from time to time, but there's always someething. Sometimes we also ask really serious questions."
+    
+    hide Bella neutral
+    show Sam talking
+    
+    s "It's weird that I haven't really asked this or known too much about this, but where are you going after high school, guys?"
+    
+    s "To be honest, I have no clue what i'm gonna do."
+    
+    show Bella neutral at right
+    
+    b "That's quite a question. I know a lot of us will be going to college, but i'm just gonna go to the community college here. I see myself going into journalism, I really like working in the school newspaper."
+    
+    s "Are an editor for it?"
+    
+    b "Yea, I work on the club news articles."
+    
+    show Cynthia neutral at left
+    
+    c "Nice. Really thinking of going pro as a writer?"
+    
+    b "I write blogs all the time, I love writing, so yeah."
+    
+    s "That's really neat! What about you, Cynthia?"
+    
+    c "My brothers will put me through college, so I feel fortunate for that. I'd say I would go into business."
+    
+    b "What kind of business?"
+    
+    c "Don't really know yet, I just wanna make some dough."
+    
+    s "You're really good at making clothes and costumes right? Thinking of something like that?"
+    
+    c "If I can pay the bills with that, yeah."
+    
+    s "Alright then. What about you, Ari?"
+    
+    hide Sam neutral
+    show Ari talking
+    
+    a "I have aspirations to become a doctor, so my path would be towards undergraduate college into medical school."
+    
+    c "Really big goals there, but what about student loans? Paying those off from med school will take years."
+    
+    hide Ari talking
+    show Sam neutral
+    
+    s "But he'll be a doctor, so he'll get tons of money to pay that off. Right?"
+    
+    c "Perhaps, but it's difficult to get high paying jobs even as a doctor. My mom has friends who are nurses who still work year after year to pay them off. I hear some are still working to pay them off."
+    
+    s "Yikes."
+    
+    b "Ari's really smart though, he's definitely gonna get a whole bunch of scholarships to pay for all of that."
+    
+    s "Hehehe, I see it now. 'Dr.Kagawa'! It's a nice ring huh? You got this, buddy."
+    
+    hide Cynthia neutral at left
+    show Ari neutral at left
+    
+    a "Thanks, Sam."
+    
+    s "As for me, I don't see myself doing much. Probably gonna just take over my mom's business."
+    
+    b "Really? Don't you want to do something else?"
+    
+    s "Not taking after her business? That will go down nicely with my mother."
+    
+    b "There's gotta something out there that you're good at and enjoy doing, not just what your mom forces you to do."
+    
+    s "I really don't know what to do with my life."
+    
+    s "You will find your answer to that question as long as you keep trying."
+    
+    hide Ari neutral at left
+    show Cynthia neutral at left
+    
+    c "Yeah, everyone can have something they're good at."
 
     # This ends the game.
 
