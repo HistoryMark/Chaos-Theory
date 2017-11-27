@@ -3962,7 +3962,7 @@ label Ch2BY:
     hide Sam embarrassed at right
     hide Bella talking
     
-    scene bg heavylifting
+    scene bg cgheavylifting
     
     "Bella sends me to start carrying a bunch of props and decorations."
     
@@ -4184,7 +4184,299 @@ label Ch2CY:
     
     "Slowly Cynthia and I begin to read at the same pace."
     
-    "."
+    "..."
+    
+    c "It's a slow pace at first."
+    
+    s "That's only the first part."
+    
+    c "Lots of books do start slow, but I like stories that jump right into the action. Character exposition is nice, but I like it when we don't know much at first to begin with and learn about them more as the book progresses."
+    
+    s "I guess that's fair. Let's move on to the next chapter and see if it does move on faster."
+    
+    "We continue reading back to the pace we unspokenly agreed to."
+    
+    "Indeed the book picked up speed as a lot of stuff happens in the next part as the author did not hesitate to let loose."
+    
+    "Confessions come out abruptly for both of the girls, accidents and dangerous events happen really fast leaving you asking what happened."
+    
+    "I look over and see Cynthia is completely absorbed in the book in the confession of one of the girls."
+    
+    "Cynthia comes closer to me and begins to hold my arm tightly and pushes her chest against it."
+    
+    s "Umm, Cynthia?"
+    
+    c "Yea?"
+    
+    "She's snuggled up next to me in a very awkward position, but she was so into the book, she didn't even realize."
+    
+    s "You're awfully close to me."
+    
+    c "Oh, sorry about that. It just got really intense that I tend to just grasp something when it gets like that. Does it bother you?"
+    
+    "It's really awkward, but it kinda doesn't bother me that much."
+    
+    s "Not really, it's fine if you want to."
+    
+    c "Okay."
+    
+    "She turns back to the book to try to hide her embarrassment."
+    
+    "..."
+    
+    "We continue on to the last part of the book and it was even more intense than the second leading up to the decision between the two maidens for the main character."
+    
+    c "Mmmm..."
+    
+    "Cynthia clearly anxious to turn the page about the big decision of the story."
+    
+    "We turn the page and..."
+    
+    s "It just ends like that?"
+    
+    c "A cliffhanger! Oh how evil."
+    
+    s "They just leave us hanging like that?"
+    
+    c "Authors do this all the time to make readers buy their next book in their series, but it also spurs a lot of fanfiction."
+    
+    s "Are they any good usually?"
+    
+    c "Rarely, most of them are garbage."
+    
+    s "Oh."
+    
+    c "Overall a really exciting book even though it's a really cliche love triangle for a plot."
+    
+    c "However, for such a simple plot, i've never read such a genuine and dramatic story."
+    
+    s "Really? That's how you would rate the book? A lot of stuff just happened so quickly in the book."
+    
+    c "I've already read a lot of these types of books before and they like to write a lot like this. Sometimes they're all the same. This book, however, was really good in spite of all that."
+    
+    s "Hmm..."
+    
+    c "It's eerie."
+    
+    s "What?"
+    
+    c "This type of story sounds really familiar. I don't know from where i've seen something like this, but I recognize it."
+    
+    s "Really?"
+    
+    "Cynthia stares into my eyes once more with a dazed look. This time I stare back at her with a similarly dazed look."
+    
+    c "Mmm..."
+    
+    s "Cynthia?"
+    
+    c "They say you can stare into another person's soul through their eyes. Do you believe that?"
+    
+    s "I don't understand what that means."
+    
+    c "Mmm..."
+    
+    c "Do you feel weird staring back at me like this?"
+    
+    s "I won't lie, it does feel awkward."
+    
+    c "Anything else?"
+    
+    s "I-"
+    
+    "I stutter to say what I want to say to Cynthia as I am completely embarrassed and confused on how to act in a situation like this."
+    
+    s "I don't know what to say."
+    
+    c "Then just don't say anything and just keep staring back at me."
+    
+    "Stare back I did. I completely surrender myself to the locked gaze of Cynthia."
+    
+    "Our eyes lock for that brief moment that feels longer than 30 seconds should."
+    
+    c "Sam, I-"
+    
+    "Cynthia giggles a little bit."
+    
+    scene bg clubroom
+    
+    show Sam embarrassed at right
+    show Cynthia happy
+    
+    c "You're completely red, Sam"
+    
+    "I don't even notice that my face has turned bright red from embarrassment and I quickly turn my face to hide."
+    
+    s "Er..."
+    
+    s "No i'm not!"
+    
+    c "Say that all you want, but your face can't lie!"
+    
+    s "Geez.."
+    
+    "She continues to giggle."
+    
+    c "You really make it easy for me to tease you."
+    
+    s "You and your mind games, you're just completely messing with me."
+    
+    "Her giggling stops for a second and she talks in a regular tone."
+    
+    show Cynthia neutral
+    
+    c "I'm not just completely messing with you."
+    
+    show Sam neutral at right
+    
+    s "I don't even know if that's true."
+    
+    c "I meant to say-"
+    
+    show Bella neutral at left
+    
+    b "Hey, guys! Can we all come together for a second?"
+    
+    s "What?"
+    
+    c "Nevermind. Let's go meet up with Ari."
+    
+    hide Cynthia neutral
+    
+    s "Bella!"
+    
+    b "What?"
+    
+    with dissolve
+    with fade
+    
+    show Ari neutral at right
+    
+    a "Alright. So what is your announcement that should be brought to our attention?"
+    
+    show Bella talking at left
+    
+    b "The student government is hosting a culture festival and a lot of the school clubs will be there. It goes down this Thursday since it's taking us quite a while to get everything set up."
+    
+    b "Ari, Cynthia, I was wondering if you guys want to represent our club to try to recruit more members."
+    
+    show Sam talking
+    
+    s "More people to our club? Do you think that's a good idea?"
+    
+    hide Ari neutral at right
+    show Cynthia talking at right
+    
+    c "No, that's not a good idea."
+    
+    b "Really? Sam? Ari?"
+    
+    hide Sam talking
+    show Ari talking
+    
+    a "I have to admit, I do appreciate the club more when it is just us as its sole members."
+    
+    hide Ari talking
+    show Sam talking
+    
+    s "To be honest, I only joined because of you at first, Bella. It wouldn't be the same if it wasn't just us."
+    
+    s "I don't want to sound selfish, but I really like it when it's just us four."
+    
+    c "It feels more intimate like this. I meet with people and have a lot of friends, but you guys aren't the same compared to everyone else."
+    
+    show Cynthia neutral at right
+    show Bella sad at left
+    
+    b "Hmm..."
+    
+    s "Sorry to shoot your idea down like that, but it seems we all agree on it."
+    
+    show Bella happy at left
+    
+    b "It seems that's what everyone wants. If it's what you guys want, who am I to disagree? In fact, i'm happy you guys really feel that way about the club."
+    
+    b "I was afraid you guys didn't like each other that much and might like to see other people."
+    
+    show Sam neutral
+    
+    s "That's great you agree. Thanks for understanding."
+    
+    show Bella neutral at left
+    
+    b "I still have to be at the festival, so will you guys go to the festival with me?"
+    
+    s "Sure!"
+    
+    "Cynthia stares at Bella's eyes for a brief moment then lets out a small giggle."
+    
+    c "So that's what you're afraid of."
+    
+    b "Huh?"
+    
+    c "Nevermind. I'll be there too. I'll see you guys there."
+    
+    hide Cynthia neutral at right
+    
+    "Cynthia quickly packs up and leaves the room."
+    
+    b "Okay, see ya!"
+    
+    show Ari neutral at right
+    
+    a "I will also attend. Thank you for inviting us."
+    
+    hide Ari neutral at right
+    
+    "Ari bows and leaves the room."
+    
+    s "I guess that settles it."
+    
+    s "I'll head out too. Don't take your pitch too seriously Bella. You we're just proposing an idea to the club. It's okay we didn't like it, since you show that you are concerned for us."
+    
+    b "Okay. Thanks, Sam."
+    
+    s "Come on. Let's head home."
+    
+    "Bella and I head home for the day."
+    
+    hide Sam neutral
+    hide Bella neutral at left
+    
+    with dissolve
+    with fade
+    
+    scene bg hallway
+    
+if Ch1C_active:
+    
+    "A few days later, the cultural festival finally takes place and the girls and I happily enjoyed the festival."
+    
+    "Ari actually couldn't make it to the festival since he got sick with a cold and stayed home for the day leaving me with the girls."
+    
+    "I could tell there was some sort of rivalry forming between them as continously both of them keep tugging at me for attention."
+    
+    "The three of us promptly head home after the festival's end and I walk the two of them back home leaving me completely exhausted."
+    
+    "Perhaps I now understand why Cynthia stares at me with such a daze now."
+    
+    "Does she have a crush on me and sees Bella as a huge rival?"
+    
+    "Now it sounds like the love triangle crisis in the book Cynthia and I read together..."
+    
+    "Maybe. Or it's just another mind game of hers."
+    
+    "I'll admit I feel really close with Bella as a close friend, but i'm starting to be also close to Cynthia that i'm left confused."
+    
+    "Perhaps I should spend more time with Cynthia..."
+    
+else:
+    
+    "A few days later, the cultural festival finally takes place and the four of us happily enjoyed the festival."
+    
+    "I've been spending a lot of time with Cynthia lately that I spend most of my time in the festival with her."
+    
+    "Perhaps I should spend some of my time with the others, because I feel bad when someone does get left out..."
     
 #End of Chapter 2C
     jump Ch3
@@ -4209,7 +4501,383 @@ label Ch2SY:
     $ Ch2S_active = True
     $ persistent.Ch2SCG_unlocked = True
     
-    s "Okay. Just this time."
+    show Bella neutral
+    show Sam sad at right
+    
+    s "Yeah, but I don't know how to go about it."
+    
+    b "Go about what?"
+    
+    s "I think you're the only one here who gets this."
+    
+    b "Is it about your mom?"
+    
+    s "Mmm."
+    
+    "I nod in agreement."
+    
+    s "Winter break and Christmas is coming up and I just heard from her that she can't come home for it. Again."
+    
+    "I clench my fists."
+    
+    s "Ever since I started high school, she went on even more business trips. I get she takes work seriously, but I miss her."
+    
+    s "Ever since she hit it big, she hasn't been coming home."
+    
+    "I sigh a little."
+    
+    b "She's gotta come home sometime, don't worry."
+    
+    s "Sure, but she's changed. The last time I talked to her, it didn't end pretty."
+    
+    b "I'm guessing things haven't changed ever since."
+    
+    s "Nope."
+    
+    b "Hmm..."
+    
+    show Bella talking
+    
+    b "I know what would be a good thing to do?"
+    
+    s "What?"
+    
+    b "Talk to her. Write her a letter."
+    
+    s "Really? That seems too simple, also she's just gonna ignore my email in her inbox of millions of other emails."
+    
+    b "No, like actually write her a letter in pen and paper."
+    
+    s "I don't see why you think this might work."
+    
+    b "For one, it could show that you really made an effort in writing it so that it feels more personal."
+    
+    b "Also, it would be more likely that she reads it as it doesn't get lost like an email in a huge inbox."
+   
+   show Bella neutral
+   
+    b "It's old-fashioned, but I really appreciate it when people still take time and effort to send letters like that."
+    
+    b "My family still sends letters to each other like that. It feels more genuine."
+    
+    show Sam neutral at right
+    
+    s "That actually sounds like a great idea if you put it like that."
+    
+    s "Threre's a problem though."
+    
+    b "What's that?"
+    
+    s "I haven't written a letter on paper before."
+    
+    hide Bella neutral
+    hide Sam neutral at right
+    
+    scene bg cgwritingtogether
+    
+    b "Seriously?"
+    
+    s "I'm much more used to just writing emails now."
+    
+    b "Fine. Get out a nice pen and a clean sheet of paper. This time, i'm the one helping you."
+    
+    s "Yeah, by all means."
+    
+    "I take out a sheet of notebook paper and a pencil."
+    
+    b "No! You need a clean sheet like printer paper and a really nice pen! It won't look nice like that!"
+    
+    s "Oh come on."
+    
+    b "Here. I'll give you what you need. Good thing I keep spare stuff like this."
+    
+    "Bella takes out a rather fancy calligraphy pen, a blank sheet of paper, and an envelope."
+    
+    b "Let's get started!"
+    
+    "I grab the pen and as I was about to write, Bella quickly grabs my hand."
+    
+    b "What are you doing?"
+    
+    s "I'm writing! That's what i'm suppossed to do right?"
+    
+    b "Have you even thought about what you're going to write about?"
+    
+    s "Urk."
+    
+    b "Think about what you're going to do first before you do it. Also, this is a pen, not a pencil."
+    
+    "Bella takes a notecard and a pencil."
+    
+    b "What are we writing about?"
+    
+    s "Isn't it obvious?"
+    
+    b "You have to be specific. Writing about a certain point will make it easier to get your message across. Also, I bet your mom would want it to get straight to the point."
+    
+    s "Okay. Let's make it simple."
+    
+    s "It's about wishing happy holidays even though she's abroad."
+    
+    b "Good. Next what do you want to address?"
+    
+    s "Ummm."
+    
+    "I stop for a minute to think of where she might be right now."
+    
+    s "Last time I checked, she's going to France for a month to make some deals with companies."
+    
+    b "We could go with a French theme!"
+    
+    s "Let's not do that. Let's just stick to a simple Christmas theme from here."
+    
+    b "Okay."
+    
+    s "I want to wish her a happy Christmas even though she's far away from home."
+    
+    s "I'll wish her safe travels and a peaceful time there, and-"
+    
+    "I stutter as I realize this isn't all that I really want to say to her."
+    
+    b "And what, Sam?"
+    
+    "I silently mutter the word."
+    
+    b "What?"
+    
+    s "I want her to come home. I miss her so much."
+    
+    s "I know we had a little disagreement over me starting school here, but I wanted this."
+    
+    b "Sam?"
+    
+    "I pause and take in what I just said."
+    
+    s "Before I started this year, my mom wanted us to move over to France."
+    
+    s "I told her that I didn't want to move anymore. I had moved about 4 times before moving here and staying for a while."
+    
+    s "I met you and became friends with you for about how long now?"
+    
+    b "I think about six years."
+    
+    s "I said some things that I regret saying to her. She left for work and I haven't talked to her since."
+    
+    b "I still think you should talk to her though."
+    
+    s "I'm still mad at her though."
+    
+    "I clench my fists tighter, but Bella puts her hand over mine and unclenches them."
+    
+    b "Tell that to her through the paper."
+    
+    s "..."
+    
+    b "Come on. I'll write with you."
+    
+    s "..."
+    
+    "I hesitantly look at the paper, then look at her face. For a brief moment, we stare at each others' eyes which seem to make the moment last longer."
+    
+    b "Sam?"
+    
+    s "Okay. I'll write with you."
+    
+    "Bella nods and we both start writing."
+    
+    "Bella coaches me on grammar, spelling, and looks over at my writing style. Of course, I make a lot of grammatical and spelling mistakes along the way, but Bella really liked my style of writing."
+    
+    b "Sam, the way you write is-"
+    
+    s "What about it?"
+    
+    b "It's beautiful. You have such a bittersweet tone."
+    
+    s "What is bittersweet about this?"
+    
+    b "You write with sadness, yet still write as if you are still happy, hoping for the next day."
+    
+    s "Does it really look like that?"
+    
+    "I look over the paper to see my first rough draft and indeed, she describes my style perfectly."
+    
+    s "I guess it's hard for myself to see that."
+    
+    "I finish writing my rough draft and Bella and I look over it a couple of times..."
+    
+    b "This is perfect. You really made a nice letter here. Not only it's genuine, bittersweet, it's totally you."
+    
+    b "This wouldn't be the same when typed through an email."
+    
+    s "It's just words on a paper."
+    
+    b "It says that it's much more than that. Believe me."
+    
+    b "Now let's actually print it with that calligraphy pen I gave you onto the blank paper."
+    
+    "I take the pen and begin to make strokes and rewrite my letter."
+    
+    b "You're a natural with that pen. You always had really nice handwriting."
+    
+    s "I play a lot of videogames and draw a lot. I guess it comes to me naturally."
+    
+    "I finish rewriting my draft, put the date and address on the paper."
+    
+    b "Now all that's left is to sign it."
+    
+    s "Right."
+    
+    "I sign my name at the bottom as meticulously and neatly as I can in my finest penmanship."
+    
+    b "You could make art with that."
+    
+    s "Are you sure you're just saying all of this or is it just to encourage me?"
+    
+    "Bella is taken aback by my remark."
+    
+    b "No, really! This really is a nice letter that you wrote. I'm saying this truthfully. I wouldn't lie to you like that. We've known each other for quite a while now! You would know if I told you that what you made is garbage."
+    
+    s "Okay."
+    
+    b "Since when are you not confident?"
+    
+    s "All the time. You on the other hand, are always confident."
+    
+    b "Don't be like that. You really are awesome, okay? Now be proud about what you made."
+    
+    "I look over my finished letter, then start to smile."
+    
+    s "Why did you make me do this again?"
+    
+    "We both start to giggle."
+    
+    b "Because, i'm helping you this time. It's for your own good."
+    
+    "We let the ink dry on the paper after a couple minutes. Bella folds the letter and puts it into the envelope. She stamps the envelope with a stamp and seals the folds with an intricate seal."
+    
+    "I place my stamp with my address and place a stamp with my mom's work address in her office in France."
+    
+    b "There we go."
+    
+    s "That seal, is it yours?"
+    
+    b "Yeah, it's my family's seal. It was passed down from my grandfather's ancenstors."
+    
+    s "It looks nice."
+    
+    b "Just take that to the post office or a mailbox to your mom. I think you know how to do that at least."
+    
+    s "What?"
+    
+    "Bella giggles a little bit."
+    
+    b "Sam?"
+    
+    s "Yeah?"
+    
+    b "Can you just stare at my eyes for a while?"
+    
+    "A rather weird request coming from Bella. I wonder why she would ask me of this."
+    
+    s "Why?"
+    
+    b "It felt weird a while ago when we did it, but I want to feel it again."
+    
+    "So, I stare at her eyes and she stares back."
+    
+    "Suddenly, I understand what she meant by a weird feeling. I peer into her clear green eyes..."
+    
+    "What was a brief moment felt like a day."
+    
+    "Our stare is broken by the sound of the bell."
+    
+    scene bg clubroom
+    
+    show Bella embarrassed
+    show Sam embarrassed at right
+    
+    b "Ack! Wait, that's just the bell."
+    
+    s "Ah."
+    
+    s "We probably should get going. You've got more work today for the festival tomorrow right?"
+    
+    b "Umm..Yeah."
+    
+    show Ari neutral at left
+    
+    a "Hello, you two. I trust you two enjoyed yourselves today at our meeting?"
+    
+    b "Uh..."
+    
+    s "Yes, Ari. Anyways, what's up?"
+    
+    a "That's good. I was just about to head home to let you know. I hear the culture festival is coming up, so i'll see you guys there."
+    
+    b "R-right! I'll see you soon Ari!"
+    
+    a "Take care, everyone!"
+    
+    hide Ari neutral at left
+    
+    "Ari bows and heads out the door."
+    
+    show Cynthia neutral at left
+    
+    c "You guys sure did 'enjoy' yourselves over here, playing Romeo and Juliet."
+    
+    s "Umm.."
+    
+    c "I'm heading out too. I'll see you guys there at the festival too."
+    
+    b "Oh, okay. I'll see you Thursday, Cynthia!"
+    
+    show Cynthia happy at left
+    
+    c "You two are too cute together, you know? For sure you two will be a couple."
+    
+    s "Huh? Wait what?!"
+    
+    "Bella only stands embarrassed and mute beside me."
+    
+    c "Anyways, see you there!"
+    
+    hide Cynthia happy at left
+    
+    "Cynthia hums a little song as she heads out the door."
+    
+    c "I guess i'll you there too, Bella."
+    
+    b "Umm...Yeah."
+    
+    "Both of us are too embarrassed to say any more."
+    
+    hide Bella embarrassed
+    hide Sam embarrassed at right
+    
+    with dissolve
+    with fade
+    
+    scene bg hallway
+    
+if Ch1S_active:
+    "It's the day of the festival, and I get to the festival first where we agreed to meet. I see Cynthia arrive before the others."
+    
+    show Cynthia neutral
+    show Sam neutral at right
+    
+    c "Hey, Sam."
+    
+    s "Hey, Cynthia. You're here early like me."
+    
+    #Continue Script Work on Ch1S 11/27
+    
+else:
+    "The whole club goes to the culture festival where we all enjoy ourselves with the food, games, and other festivities."
+    
+    "We were all exhausted after the festival. Bella tried to eat too much food, Cynthia danced along to the dancers, I played too many of the games, and Ari was just purely exhausted."
+    
+    "Still, it was a fun day for us. We head home from school together and head our separate ways for today. I wonder what the next day will bring."
     
 #End of Chapter 2S
     jump Ch3
