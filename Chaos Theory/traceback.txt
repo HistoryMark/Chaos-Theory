@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'images/Bella_neutral.png'>:
-  File "game/script.rpy", line 205, in script
-    sfs "Come on, Sam! We'll be late for school!"
-IOError: Couldn't find file 'images/Bella_neutral.png'.
+While loading <'Image' u'images/backgrounds/clasroom.jpeg'>:
+  File "game/script.rpy", line 348, in script
+    "With that, the another school day ended with seemingly endless classes."
+IOError: Couldn't find file 'images/backgrounds/clasroom.jpeg'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 205, in script
-    sfs "Come on, Sam! We'll be late for school!"
+  File "game/script.rpy", line 348, in script
+    "With that, the another school day ended with seemingly endless classes."
   File "C:\Users\thema.MARKS-COMPUTER\Desktop\The Terminal\renpy-6.99.12.4-sdk\renpy\ast.py", line 613, in execute
     renpy.exports.say(who, what, interact=self.interact)
   File "C:\Users\thema.MARKS-COMPUTER\Desktop\The Terminal\renpy-6.99.12.4-sdk\renpy\exports.py", line 1147, in say
@@ -34,6 +34,18 @@ Full traceback:
     rv = d.render(widtho, heighto, st, at)
   File "C:\Users\thema.MARKS-COMPUTER\Desktop\The Terminal\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 693, in render
     surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\thema.MARKS-COMPUTER\Desktop\The Terminal\renpy-6.99.12.4-sdk\renpy\display\transition.py", line 178, in render
+    renpy.display.render.render(self.transitions[-1], width, height, 0, 0)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\thema.MARKS-COMPUTER\Desktop\The Terminal\renpy-6.99.12.4-sdk\renpy\display\transition.py", line 361, in render
+    top = render(self.new_widget, width, height, st, at)
   File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
     cpdef render(d, object widtho, object heighto, double st, double at):
   File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
@@ -70,7 +82,7 @@ Full traceback:
     surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
   File "C:\Users\thema.MARKS-COMPUTER\Desktop\The Terminal\renpy-6.99.12.4-sdk\renpy\loader.py", line 543, in load
     raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'images/Bella_neutral.png'.
+IOError: Couldn't find file 'images/backgrounds/clasroom.jpeg'.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187

@@ -2,12 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 45: Line is indented, but the preceding image statement statement does not expect a block. Please check this line's indentation.
-    image Bella neutral = "images/Bella_neutral.png"
-    ^
-
-File "game/script.rpy", line 91: Line is indented, but the preceding image statement statement does not expect a block. Please check this line's indentation.
-    image bg sidewalk = "images/sidewalk.jpg"
-    ^
+File "game/script.rpy", line 5410: expected 'label_name' not found.
+    jump 3BPass
+        ^
 
 Ren'Py Version: Ren'Py 6.99.12.4.2187
