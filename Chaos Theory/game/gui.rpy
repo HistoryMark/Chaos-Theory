@@ -9,7 +9,7 @@ init offset = -2
 ## Calling gui.init resets the styles to sensible default values, and sets the
 ## width and height of the game.
 init python:
-    gui.init(1280, 720)
+    gui.init(1024, 576)
 
 
 
@@ -106,8 +106,8 @@ define gui.textbox_yalign = 1.0
 
 ## The placement of the speaking character's name, relative to the textbox.
 ## These can be a whole number of pixels from the left or top, or 0.5 to center.
-define gui.name_xpos = 240
-define gui.name_ypos = 0
+define gui.name_xpos = 180
+define gui.name_ypos = 0.2
 
 ## The horizontal alignment of the character's name. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
@@ -130,8 +130,8 @@ define gui.namebox_tile = False
 ## The placement of dialogue relative to the textbox. These can be a whole
 ## number of pixels relative to the left or top side of the textbox, or 0.5 to
 ## center.
-define gui.dialogue_xpos = 268
-define gui.dialogue_ypos = 50
+define gui.dialogue_xpos = 140
+define gui.dialogue_ypos = 70
 
 ## The maximum width of dialogue text, in pixels.
 define gui.dialogue_width = 744
@@ -222,11 +222,11 @@ define gui.choice_button_text_hover_color = "#ffffff"
 ## image files in gui/button, like the other kinds of buttons.
 
 ## The save slot button.
-define gui.slot_button_width = 276
-define gui.slot_button_height = 206
+define gui.slot_button_width = 256
+define gui.slot_button_height = 144
 define gui.slot_button_borders = Borders(10, 10, 10, 10)
 define gui.slot_button_text_size = 14
-define gui.slot_button_text_xalign = 0.5
+define gui.slot_button_text_xalign = 0.50
 define gui.slot_button_text_idle_color = gui.idle_small_color
 
 ## The width and height of thumbnails used by the save slots.
@@ -234,7 +234,7 @@ define config.thumbnail_width = 256
 define config.thumbnail_height = 144
 
 ## The number of columns and rows in the grid of save slots.
-define gui.file_slot_cols = 3
+define gui.file_slot_cols = 2
 define gui.file_slot_rows = 2
 
 
@@ -266,10 +266,10 @@ define gui.pref_spacing = 10
 define gui.pref_button_spacing = 0
 
 ## The spacing between file page buttons.
-define gui.page_spacing = 0
+define gui.page_spacing = 10
 
 ## The spacing between file slots.
-define gui.slot_spacing = 10
+define gui.slot_spacing = 20
 
 ## The position of the main menu text.
 define gui.main_menu_text_xalign = 1.0
@@ -342,15 +342,15 @@ define gui.history_height = 140
 
 ## The position, width, and alignment of the label giving the name of the
 ## speaking character.
-define gui.history_name_xpos = 150
+define gui.history_name_xpos = 100
 define gui.history_name_ypos = 0
-define gui.history_name_width = 150
+define gui.history_name_width = 175
 define gui.history_name_xalign = 1.0
 
 ## The position, width, and alignment of the dialogue text.
-define gui.history_text_xpos = 170
+define gui.history_text_xpos = 125
 define gui.history_text_ypos = 5
-define gui.history_text_width = 740
+define gui.history_text_width = 500
 define gui.history_text_xalign = 0.0
 
 

@@ -4,7 +4,14 @@
 
 init offset = -1
 
+#Disable Quicksave and Autosave Access/ Restrict Save Access Function
 
+init python:
+    _game_menu_screen = "preferences"
+    config.has_quicksave = False
+    config.has_autosave = False
+define saveblock = False
+    
 ################################################################################
 ## Styles
 ################################################################################
@@ -253,8 +260,6 @@ screen quick_menu():
             textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
             textbutton _("Prefs") action ShowMenu('preferences')
 
 
@@ -575,7 +580,7 @@ style about_label_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#save https://
 ## www.renpy.org/doc/html/screen_special.html#load
-
+     
 screen save():
 
     tag menu
@@ -588,7 +593,6 @@ screen load():
     tag menu
 
     use file_slots(_("Load"))
-
 
 screen file_slots(title):
 
@@ -653,18 +657,11 @@ screen file_slots(title):
 
                 textbutton _("<") action FilePagePrevious()
 
-                if config.has_autosave:
-                    textbutton _("{#auto_page}A") action FilePage("auto")
-
-                if config.has_quicksave:
-                    textbutton _("{#quick_page}Q") action FilePage("quick")
-
                 ## range(1, 10) gives the numbers from 1 to 9.
                 for page in range(1, 10):
                     textbutton "[page]" action FilePage(page)
 
                 textbutton _(">") action FilePageNext()
-
 
 style page_label is gui_label
 style page_label_text is gui_label_text
@@ -868,7 +865,6 @@ style slider_button_text:
 style slider_vbox:
     xsize 450
 
-
 ## History screen ##############################################################
 ##
 ## This is a screen that displays the dialogue history to the player. While
@@ -993,6 +989,10 @@ screen keyboard_help():
     hbox:
         label _("Enter")
         text _("Advances dialogue and activates the interface.")
+        
+    hbox:
+        label _("Delete")
+        text _("Mouse hover over save file and press button to delete save file.")
 
     hbox:
         label _("Space")

@@ -2,8 +2,12 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 5410: expected 'label_name' not found.
-    jump 3BPass
+File "game/saveblock.rpy", line 86: screen expects a non-empty block.
+    screen navigation():
+                        ^
+
+File "game/saveblock.rpy", line 88: expected statement.
+    vbox:
         ^
 
 Ren'Py Version: Ren'Py 6.99.12.4.2187
