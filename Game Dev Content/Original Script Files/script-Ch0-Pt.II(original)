@@ -1,0 +1,1103 @@
+# Prologue Part II: An Ordinary Day
+
+    with fade
+    scene bg sidewalk
+    #play music regularday loop
+    
+    show Bella happy
+    
+    b "Come on, Sam! We'll be late for school!"
+    
+    show Sam talking at right
+    
+    s "Even after I bothered to wake up early today and having to spend 30 whole minutes trying to wake you up."
+    
+    s "Well, we're already going to be late with that train coming by, so why bother rushing?"
+    
+    b "What train?"
+    
+    #play audio train
+    
+    "The lights flash and the gates lower on the railroad crossing as the horn of the train can be heard."
+
+    show Bella angry
+    
+    b "Oh, really?"
+    
+    show Sam closed at right
+    
+    s "You seem really out of it today, Bella. Did you not get enough sleep last night?"
+    
+    show Bella embarrassed
+    
+    b "Er...Okay, so I only slept 4 hours last night."
+    
+    show Sam embarrassed at right
+    
+    s "Why did you stay up so late for?"
+                             
+    b "I was binge watching the entire night and lost track of time!"
+                                             
+    s "Well don't bother rushing anyway, because you'll just end up sleeping in class anyway."
+                                                     
+    b "I don't sleep in class! I just put my head down from time to time!"
+                                                                          
+    s "Sure, might as well bring a pillow."
+                                                                   
+    s "{i}This silly exchange is how my usual morning went by. For once, it feels nice to go back to a boring routine as this.{/i}"
+    
+    s "{i}The name's Sam. I'm 15, a freshman in high school, to which I'm not as excited nor have had a fun time as my friend has.{/i}" 
+    
+    b "Hmm, I should bring a blanket too...Ack! Oh shut up, Sam! Don't even talk, you don't even pay attention in class and you're wide awake!"
+    
+    s "{i}This scatter-brained girl is my childhood friend, Bella. She's the same age as I am.{/i}"
+                                                                  
+    s "{i}We've lived in the same neighborhood since we were in elementary school and had been inseparable for quite a long time.{/i}"
+    
+    s "{i}I know I said that at first she was just someone who talks to me, but I was just lying to myself.{/i}"
+    
+    s "{i}After what happened yesterday with her coming out to console me, I've completely changed my outlook of her.{/i}"
+    
+    s "{i}Right now, she's one of the few, or maybe the only one, that I could talk to. She's someone I've taken for granted, and I've truly never missed having her around until I didn't.{/i}"
+    
+    show Bella neutral
+    
+    b "Anyway, you're not excited for school today, Sam? It's pretty much the only thing we can look forward to everyday!"
+    
+    show Sam sad at right
+                                                                         
+    s "No, you know me. I would rather be just be home playing videogames."
+    
+    s "Besides, we may be in high school now, but it's still the same idiots like me doing stupid things, the same boring teachers, and the same place people who could give less of a crap about it."
+
+    show Bella talking
+    
+    b "Don't say it like that! Yeah, some people don't care about school, but I think you don't care because you don't understand."
+
+    show Sam talking at right
+    
+    s "Understand what? That school is just a glorified teenager day care?"
+    
+    b "It's a place of learning and growth! There's so much you can learn in school other than testing the teachers' patience!"
+    
+    s "What do you mean?"
+    
+    show Bella happy
+    
+    b "It's a place where you learn about yourself and grow as a person, a place to learn skills for a bright future!"
+    
+    "Bella's voice grows louder as she continues of her speech about school."
+    
+    b "It's a place to celebrate and live life while we're young!"
+    
+    show Sam embarrassed at right
+    
+    s "Well, that was an overly dramatic way to put it."
+    
+    s "You still believe that high school is like what we see in the movies and tv?"
+    
+    s "You live in a fantasy."
+    
+    s "I know I told myself to stop being such a heathen, but it's still so boring."
+    
+    show Bella sad
+    
+    b "My mom is always telling me how envious she is and how she would like to be back in high school again."
+    
+    b "Why can't school be fun like how we see it in movies or at least be little bit like it anyway? Besides..."
+    
+    show Bella closed
+    
+    b "We only experience these 4 years once!"
+    
+    show Sam crying at right
+    
+    s "No, it's what we see in another 4 years in college and then for 50 years in a job."
+    
+    s "Just sitting, 'working', and being told to not break anything."
+    
+    show Bella talking
+    
+    b "There's more to school than just that! Also, it's just what you make of it, Sam. Speaking of which, why don't you join some clubs and sports like you used to?"
+    
+    show Sam talking at right
+    
+    s "No, and I'd like to keep it that way. I'll just spend my 8 hours in the prison called 'school' and take my leave as I've been doing for the 3 months we've been here."
+    
+    show Sam neutral at right
+    
+    s "You know what? Let's just talk about other stuff, having to be at school is boring enough, so-"
+    
+    b "I won't take 'no' for an answer! Come with me after school, I've got a club I want you to join."
+
+    show Bella happy
+    
+    b "Well, we're here at the schoolyard! I'm bummed we don't have any classes together, but I still want to see you afterschool, okay? I'll see you then!"
+    
+    show Bella embarrassed
+    
+    b "Also for the love of god, be good! You promised me you wouldn't get yourself into anymore trouble!"
+        
+    b "I'll come over after your last class. See you!"
+    
+    show Sam embarrassed at right
+    
+    s "What?"
+    
+    s "Ah-"
+    
+    hide Bella happy
+    
+    "Before I can protest, she runs off to her classes."
+    
+    s "Ack...Okay, whatever..."
+
+    s "Time for another day of school..."
+
+    hide Sam talking at right
+    with dissolve
+    with fade
+    
+    scene bg classroom
+    
+    show Sam neutral
+    
+    s "{i}Another school day passing with seemingly endless classes.{/i}"
+    
+    s "{i}I just doze off in class and watch anime on my laptop to pass the time.{/i}"
+    
+    s "{i}I can't really play many games on my computer for many reasons, but for some reason, the school doesn't block sites that allow me to stream. To occupy myself from stirring trouble, I watch my favorite types of shows: anime.{/i}"
+    
+    s "{i}Other than being a troublemaker, or a mediocre student, I'm just an otaku.{/i}"
+    
+    s "{i}I take a glance around the classroom to pay attention for the moment in class.{/i}"
+    
+    tcha "...And so, two molecules of Acetyl CoA is processed in the matrix to generate electron carriers, ATP, and other precursors for anabolic reactions between 9 or so intermediates. Intermediates are oxidized in a cycle generating..."
+    
+    show Sam embarrassed
+    
+    s "What?"
+    
+    s "{i}I get lost in the teacher's lecture with the many terms and diagrams she's throwing at us. It sounds like complete mumbo-jumbo to me. Then she asks the actual question part of the problem.{/i}"
+    
+    tcha "This cycle of reactions is for what? Anyone?"
+    
+    "The class is completely silent."
+    
+    tcha "Seriously...anyone?"
+    
+    tcha "The test scores on the last test didn't even average above a C, and this unit isone of the hardest in the course. Please help me out in helping you with this."
+    
+    show Sam sad
+    
+    s "I remember why I always toned out this class, not only is this class overly boring, almost everyone in the class is not preapared in this class, myself included."
+    
+    pov "What is this class?"
+    
+    s "Biology 101. College-level biology."
+    
+    pov "I didn't take a troublemaker like you to be an honors student and take advanced classes."
+    
+    s "I'm not. My mom forced me to take this class, having overly high expectations of me."
+    
+    s "I'm actually about to fail the class right now with the hext unit, and I've barely studied nor understood anything in the class so far."
+    
+    show Sam angry
+    
+    s "I can thank my mom for putting me through this stress and overly difficult class that I'm not cut out for."
+    
+    pov "So you've never done any studying at all? Also, you're a freshman and you're already taking classes of this high caliber?"
+    
+    s "I'm just gonna transfer to a lower leveled class next week. I don't care if it'll show that I failed the class. I can't take anymore of this crap."
+    
+    pov "I see. She must have some reason to put you in this class. You probably could be a honors student if you really tried."
+    
+    s "But I don't want to! I hate studying and I don't want to have to do more work in school than I need to graduate and be out of this place."
+    
+    show Sam embarrassed
+    
+    s "Right now, I have to thank my lucky stars that I haven't been called on yet."
+    
+    tcha "Sam? Do you have an answer?"
+    
+    "The teacher turns to Sam as he was murmuring to himself at the corner of the class. The class turns around and looks at him."
+    
+    show Sam surprised
+    
+    s "..."
+    
+    pov "Speaking of which, you just got called on."
+    
+    s "{i}Damn it. I completely don't know what she talked about.{/i}"
+    
+    s "Er, right. I think it's..."
+    
+    "Just before Sam opens his mouth to answer, another student raises their hand to answer the teacher's question."
+    
+    tcha "Yes, Ari?"
+    
+    show Ari talking at right
+    
+    a "The Citric Acid Cycle processes Acetyl CoA and other intermediates from macromolecules to release stored energy into chemical energy the cell can use as ATP."
+    
+    a "In addition, the cycle also generates precursors such the electron carriers NADH and FADH for other reactions. Those  carriers are then used in oxidative phosphorylation in producing more ATP through more oxidation."
+    
+    "The class then turns to the other student who answered the question in my stead."
+    
+    tcha "That's correct. Well done, Ari. Thank you."
+    
+    "Most of the other students in the class are either sighing or quickly writing down notes after he had calmly answered the question."
+    
+    tcha "It's nice that at least Ari is answering the quesitons, but everyone else must also answer the questions to be prepared. I already know he's well prepared for this test already, but are you?"
+    
+    "Students nearby murmur to each other."
+    
+    smsa "Yeah, the guy's the only one to ace every test in here so far. He's essentially taking this class as a formality."
+    
+    sfsa "If he breaks the curve again for this test, at least she'll have to give us more points again so that we don't fail the test when we should have."
+    
+    smsb "Of course the kid's a prodigy, he's Asian. The guy's too good that he makes all of us look bad."
+    
+    smsc "Probably just does nothing but study. There's way too much stuff in these tests for anyone to do anything else, but study."
+    
+    sfsb "It's nice to have someone super smart in the class, though isn't it?"
+    
+    smsa "Well, where does that leave us? No wonder no one really gets and A in here. People like him break the curve every time."
+    
+    "..."
+    
+    #stop music fadeout 1.0
+    show Ari sad at right
+    
+    sms "..."
+    
+    show Sam talking
+    
+    s "Ah, sorry...Are you okay?."
+    
+    show Sam sad
+    
+    sms "I am fine. Please excuse me."
+    
+    sms "..."
+    
+    "He turns to leave then turns around and stares at me for one short moment."
+    
+    show Ari crying
+    
+    sms "...I see then."
+    
+    hide Ari crying
+    
+    "He leaves the room in a quiet fashion."
+    
+    s "Okay..."
+    
+    "If I can recall, he's the new transfer student from Japan. I didn't catch his name, but the guy's a prodigy."
+    
+    "For a Japanese student, he speaks English better than most people in the class."
+    
+    "He introduced himself in a really formal way and talks oddly, but the guy is the class ace right now."
+    
+    "I wonder what's with him. What's with that look?"
+
+    hide Sam sad
+    with dissolve
+    with fade
+
+    scene bg hallway
+    show Sam neutral
+    show Bella happy at left
+    #play music playful loop
+    
+    "I get through a couple more classes, but each one seems endless."
+    
+    "I finally get through all my classes for the day. After my last class, I go out to look for Bella."
+    
+    "I meet up with Bella in the hallway to see her waiting for me outside my classroom."
+    
+    show Sam embarrassed
+    
+    s "You're really serious with forcing me to join a club aren't you?"
+    
+    show Bella closed at left
+    
+    b "Come on, you've got the time and energy! In fact, I want you to join a club I'm trying to start!"  
+
+    show Bella neutral at left
+    show Sam sad
+    #stop music fadeout 1.0
+    
+    show Sam talking
+    
+    s "I'd rather just be home when I'm done with school stuff here."
+    
+    show Bella happy at left
+        
+    b "I've got a club that I wanted to make for a while now. Since you aren't really joining or interested in other clubs, I was wondering if you could help me out." 
+    
+    show Bella talking at left
+    
+    b "I need three other people to join to be recognized as an official club."
+    
+    b "I was trying to get people to join and only found 2 others from recommendations from my teacher and I was wondering if you could join."
+    
+    b "You would be fine doing something with me and 2 other friends? Please, Sam? It isn't a lot of work at all, I promise!"
+    
+    b "You don't need any experience, skills in academics or sports, or anything. Just be there."
+    
+    show Sam embarrassed
+    show Bella neutral at left
+    
+    "Bella stares at me, begging me to give in."
+    
+    s "Hmmm..."
+    
+    show Bella happy at left
+    
+    b "Please?"
+    
+    s "..."
+    
+    show Bella closed at left
+    
+    b "I figured out the thing you're actually good at, and you don't even know it! This would be the perfect club for you!"
+    
+    show Sam talking
+    
+    s "What is that then?"
+    
+    show Bella blushing at left
+    
+    b "Helping. Especially helping me."
+    
+    b "You're always there to wake me up in the morning so I'm not late for school and I always would sleep in."
+    
+    b "You're always there when I don't understand what to do in my homework."
+    
+    b "You're there when I get hungry and give me a bit of your lunch."
+    
+    b "You were there for my birthday party as the only person there that wasn't my family."
+    
+    show Sam blushing
+    
+    s "Bella..."
+    
+    show Bella closed at left
+    
+    b "Remember the first day we met?"
+    
+    show Sam neutral
+    
+    s "Yeah."
+    
+    s "I came to your birthday party that day when I was just walking around the neighborhood."
+    
+    show Sam talking
+    
+    s "What about it?"
+    
+    show Sam neutral
+    
+    show Bella happy at left
+    
+    b "You told me you were there because of the cake."
+    
+    show Bella blushing at left
+    
+    b "..."
+    
+    "Bella's face is red from blushing. It really didn't think it meant that much to her when we met."
+    
+    show Sam surprised
+    
+    s "I didn't think it really meant that much."
+    
+    b "You've been there for me ever since. You're my best friend, you know that?"
+    
+    b "It would mean the world to me, if you were in the same club as me. Do me a favor, please?"
+    
+    show Sam neutral
+    
+    s "I just have to show up then?"
+    
+    b "Please? I just want you to be there with me. Also, you're definitely gonna' like this club."
+    
+    show Bella talking at left
+    
+    b "I suppose you'd be more convinced if I gave you something..."
+    
+    b "I'll give you some of my cookies and cupcakes that I make in the baking club!"
+    
+    b "I'll even make you a bunch of your favorites, like snickerdoodles!"
+    
+    show Sam embarrassed
+    
+    "I let out a sigh."
+    
+    "She does make the best homemade cookies and stuff around, plus it's free."
+    
+    "..."
+    
+    show Sam closed
+    
+    s "Fine, I'll go make a club with you."
+    
+    show Sam neutral
+    show Bella happy at left
+    
+    "Bella grins with a big smile across her face."
+    
+    b "Great! It'll be fun with you Sam! I know it!"
+    
+    s "Geez. Why can't I just say no when she does that."
+    
+    hide Bella happy at left
+    
+    "Bella happily skips away."
+    
+    "With that settled, I head home pondering about being guilt-tripped and bribed by baked goods all to join a club."
+    
+    #stop music fadeout 1.0
+    hide Sam neutral
+    
+    scene bg sidewalk
+    
+    show Sam neutral
+    
+    "Here I was on my way home just casually walking home from school, then I saw another student walking home from school."
+    
+    s "Hmm...He looks familiar."
+    
+    show Ari sad at right
+    
+    sms "..."
+    
+    "He's carrying a bunch of books while blankly staring at the ground..."
+    
+    s "Why's he carrying all those books home? There can't be that much work in class already! Must be a nerd."
+    
+    show Ari hurt at right
+    
+    "Thud!"
+    
+    hide Ari hurt at right
+    
+    "As he was standing there stone-faced, a bunch of kids run past him and knock his books out of his arms and landing on the ground, but he didn't even react."
+    
+    "The kids run off not even knowing of their small accident, but he doesn't even raise a single complaint. Just another pained look."
+    
+    "Gathering courage, I walk over to him and start gathering his things for him."
+    
+    #play music bitterness loop
+    show Sam talking
+    
+    s "Are you okay? Those kids didn't even realize they knocked you over."
+    
+    "He first stares at me with a bewildered look."
+    
+    sms "I could handle this by myself."
+    
+    "He fumbles over picking up his books only to drop them."
+    
+    show Sam sad
+    
+    s "You don't look like you can even handle yourself let alone these books."
+    
+    sms "..."
+    
+    s "You look down in the dumps, man. Here let me help you, charity case."
+    
+    sms "I am fine, really."
+    
+    show Sam talking
+    
+    s "Just let me help you, okay? I can tell with that face, you feel really down today, and you could use some help."
+    
+    s "'I'm fine, really.'If you're fine, just accept my help, okay?"
+    
+    "I help him get up by givivng him my hand. He raises himself up slowly."
+    
+    show Ari sad at right
+    
+    show Sam neutral
+    
+    s "Here, I'll carry some of these books for you and just don't give me that 'I'm fine' bit. You're not 'fine' and I don't like seeing sad people."
+    
+    "I fall over trying to lift the books, misjudging their weight."
+    
+    show Sam embarrassed
+    
+    s "Hehehe...Sorry, these books are heavier than I expected! I bet you've got quite some strength to be able to carry these by yourself, or that i'm just pathetically weak. Probably the latter."
+    
+    show Ari crying at right
+    
+    "He dusts himself off."
+    
+    sms "I suppose I should show the common decency to at least accept your help and say my thanks."
+    
+    show Ari closed at right
+    
+    "He sighs."
+
+    show Ari neutral at right
+    
+    "His sad stare livens up to a half-smile..."
+    
+    sms "..."
+    
+    sms "Thank you. Here, I will help you in assisting me."
+    
+    #stop music fadeout 1.0
+    
+    "He takes half of the books and carries them entrusting me with the other half."
+    
+    show Sam talking
+    
+    s "Anyway, I saw you earlier, you're from the same class from me right? Uh...I forgot your name."
+    
+    #play music regularday loop
+    
+    show Ari closed at right
+    
+    a "My name is Kagawa Ari, you can call me Ari."
+
+    "He bows."
+    
+    show Ari neutral at right
+    show Sam neutral
+    
+    s "Well, my name's Sam Moore. I'm 15 and a freshman, you're new here right?"
+    
+    "He nods in confirmation."
+    
+    show Sam talking
+    
+    s "Why are you carrying all these books anyway? It's only the beginning of the first half of the school year! These books are really frickin' heavy!"
+    
+    show Ari crying at right
+    
+    "He pauses for a second."
+    
+    show Ari closed at right
+    
+    a "I was taking initiative to read ahead for class."
+    
+    show Sam neutral
+    
+    s "Here, I'll carry these for you. How far do you live from here?"
+    
+    show Ari neutral at right
+    
+    a "Just three blocks from here."
+    
+    show Ari talking at right
+    
+    a "Thank you again for helping me. Are you sure you are alright with this?"
+    
+    show Ari neutral at right
+    show Sam happy
+    
+    s "No, it's alright. I just wanted to help anyway. That's all."
+    
+    "I walk with Ari to his house and find that he only lives a couple blocks away from my house."
+    
+    show Sam embarrassed
+    
+    s "Do you seriously carry around these books and a backpack to and from school everyday?"
+    
+    show Ari talking at right
+    
+    a "No, I was taking these books just for today."
+
+    show Sam happy
+    
+    s "Geez, I guess you're really getting some serious exercise. I still have trouble lifting half of these huge books!"
+
+    show Ari happy at right
+    
+    "I let out a short chuckle, Ari's starts to chuckle too."
+
+    show Ari neutral at right
+    show Sam neutral
+
+    "We casually get to know each other on the way home talking about school, the weather, and other small talk."
+
+    show Sam talking
+    
+    s "So, how are you liking the city? It's really crowded, but it has its charms I would say."
+    
+    show Sam neutral
+    show Ari talking at right
+    
+    a "I would agree with you with the fact that it is charming, but it feels lonesome sometimes."
+    
+    show Sam talking
+    show Ari sad at right
+
+    s "What would make you say that?"
+    
+    show Sam neutral
+    show Ari talking at right
+
+    a "I reside in the city with my aunt, but she's occupied with work frequently. I am studying here and the rest of my family..." 
+    
+    show Ari sad at right
+    
+    "He pauses mid-sentence."
+    
+    a "...is still back home in Japan."
+    
+    show Sam talking
+
+    s "Oh...I live with my family here, but I never see my mom much because she's working, so I guess we kinda have that in common." 
+    
+    show Sam neutral
+    show Ari talking at right
+    
+    a "What commonality?"
+    
+    show Sam talking
+    show Ari neutral at right
+    
+    s "We don't see family much I guess. My mom and dad got divorced, so I live with my mom; however, I don't get to talk to her much. You also don't get to talk to you aunt or your family much do you?"
+    
+    show Sam neutral
+    show Ari talking at right
+    
+    a "I suppose so."
+    
+    show Ari neutral at right
+    show Sam talking
+    
+    s "I hang around the neighborhood all the time and get to talk to my friends to keep me company, but do you have people to keep you company?"
+    
+    show Ari closed at right
+    
+    a "I rather prefer to be solitary and focus on my studies. It is..." 
+    
+    show Ari crying at right
+    
+    a "...complicated."
+    
+    show Sam sad
+    
+    s "Oh, I see."
+    
+    "The conversation got a little awkward after talking about family, so I try to move on to something else because I see that we're both sensitive about family."
+    
+    show Sam talking
+    
+    s "Anyways, you speak English way too well to be Japanese."
+    
+    show Sam neutral
+    show Ari talking at right
+
+    a "I learned English since I was 5 years old, so it became another natural language for me."
+    
+    show Sam happy
+    show Ari neutral at right
+    
+    s "Oh, cool! Did you say 'another'? How many different languages do you know?"
+    
+    show Ari closed at right
+    
+    a "I am proficient in English, Japanese, French, and Latin."
+    
+    show Sam embarrassed
+    
+    s "I barely know just English alone!"
+    
+    show Ari talking at right
+    show Sam neutral
+    
+    a "You speak it everyday, do you not?"
+    
+    show Ari neutral at right
+    show Sam embarrassed
+    
+    s "Actually knowing it is a different story."
+    
+    "Ari chuckles a little."
+    
+    show Sam closed
+
+    s "You really take school very seriously, like a tryhard?"
+    
+    show Sam neutral
+    show Ari talking at right
+    
+    a "I take everything seriously, especially school."
+    
+    show Sam talking
+    show Ari neutral at right
+    
+    s "That's cool, but I'm just not good at school stuff."
+
+    show Ari talking at right
+    show Sam neutral
+    
+    a "Why not?"
+    
+    show Sam embarrassed
+    show Ari neutral at right
+    
+    s "Eh...I'm just not good with all the tests and homework."
+    
+    show Ari closed at right
+    
+    a "I am certain you are a wonderful in something else that cannot be measured in school."
+    
+    show Ari neutral at right
+    
+    a "After all, some well known names today were not all top students. Find success another way."
+    
+    show Sam neutral
+    
+    s "Hehe...yeah, right."
+    
+    show Sam talking
+
+    s "What do you think you want to do?"
+    
+    show Ari closed at right
+    show Sam neutral
+    
+    a "I aspire to be a surgeon as my family hopes me to be."
+    
+    show Sam closed
+    show Ari neutral at right
+    
+    s "That's great!" 
+    
+    s "I'm mediocre at best with everything in school, but my mom has a business, so I'll just end up taking over for her."
+    
+    show Sam neutral
+    show Ari talking at right
+
+    a "There is probably something you are proficient and passionate about, you just have to find it and work hard. Everyone has limitless potential and anything can change."
+
+    a "It is not about the skills or the work that matters, rather it is the drive to achieve a goal."
+    
+    a "To have a purpose in why you work or-"
+    
+    "He pauses and speaks quietly."
+    
+    show Ari closed at right
+    
+    a "Make the decisions that you do..."
+
+    "I could only stand mute, without a response."
+
+    show Ari embarrassed at right
+    
+    a "Sorry, I know it sounds rather cliché." 
+    
+    show Ari neutral at right
+    show Sam embarrassed
+
+    s "Man, I don't even know what to say, or even do with my life. You at least have an idea."
+
+    show Ari closed at right
+    
+    a "You will have a bright future ahead of you. You were brave enough to help me, who was just a stranger to you not long ago. You could do even more."
+    
+    a "Also, you still have plenty of time to think about it."
+    
+    a "The future is bright."
+
+    show Sam happy
+    show Ari neutral at right
+    
+    s "Heh, thanks, man. I appreciate the encouragement at least."
+    
+    show Ari surprised at right
+    show Sam neutral
+    
+    a "Oh, here we are. This is my house. Thanks for helping me carry my books. You helped me in more ways than one."
+    
+    show Sam happy
+    show Ari neutral at right
+
+    s "No problem, I didn't have anything better to do and I don't think I did that much. Hehehe."
+    
+    s "Well, it was nice meeting ya!"
+    
+    show Sam neutral
+    
+    "I was about to turn and head home, but then..."
+    
+    show Sam happy
+    
+    s "Actually, you wouldn't mind if I hang out with you?"
+    
+    s "Like, wanna meet up tomorrow and walk to school with me in the mornings? Your house is actually on the way to school from my house."
+    
+    show Ari surprised at right
+    
+    a "Are you sure you want me to go with you?"
+
+    #stop music fadeout 1.0
+    show Sam happy
+    #play music maintheme loop
+
+    s "Yeah, friend! I would be happy if you came!"
+
+    show Ari blushing at right
+
+    a "Friend?"
+    
+    show Sam closed
+
+    s "I know we just met, but yeah, friend! You seem like a cool person, and it would help you to know someone in school, right? How about it?"
+    
+    s "It would be great to have you hang out if you want."
+
+    show Ari happy at right
+    
+    "He smiles with a grin."
+    
+    show Ari neutral at right
+
+    a "Yeah. I suppose so."
+    
+    show Sam happy
+    
+    s "I'll see you then!"
+    
+    show Ari closed at right
+    
+    a "I will be watching, then..."
+    
+    show Sam talking
+    
+    s "Watching?"
+    
+    show Ari happy at right
+    
+    a "Watching the time go by until your return."
+    
+    show Sam neutral
+    
+    s "Okay, then."
+
+    hide Ari happy at right
+    #stop music fadeout 1.0
+
+    "Ari waves as we exchange goodbyes for the day. I head home in a good mood."
+
+    with dissolve
+    show Sam neutral at left
+
+    "I head home and see Bella and a familiar face waiting for me at the gate."
+
+    #play music regularday loop
+    show Cynthia neutral at right
+    show Bella happy
+    
+    b "Hey, Sam!"
+    
+    show Sam talking at left
+
+    s "Hiya!"
+
+    show Cynthia blushing at right
+    
+    c "Hey, Sam. Nice seeing you here.~"
+    
+    "Cynthia winks at me."
+    
+    show Bella angry
+    
+    b "You know her, Sam?"
+    
+    show Sam embarrassed at left
+
+    s "Yeah, I know her, but literally everyone in the school knows her."
+    
+    "President of the fashion club, everyone, especially the cheerleaders gossips about you, and almost every guy in the school tries to ask you out, but they're all 'out of your league'."
+    
+    "Popular in the school for grabbing everyone's attention and messing with anyone and everyone from all the rumors she spreads."
+    
+    show Sam talking at left
+    
+    s "She's in my English class with me and we work as a group a lot."
+    
+    show Cynthia happy at right
+    
+    c "It's fun working with you."
+    
+    show Sam embarrassed at left
+    
+    s "Yeah, we get our work done, but you spend a good amount of time messing with me."
+    
+    c "You make a good partner!~"
+    
+    show Bella angry
+    
+    b "Well, I hope you'll have fun working with me too."
+    
+    show Cynthia talking at right
+
+    c "So Sam, I had a falling out with my club, so my teacher pointed me to Bella who was starting a new club with 2 others and I'm helping Bella out for something."
+    
+    c "I've only actually met Bella recently and I didn't know she knew you, Sam!"
+    
+    c "A small world, huh?"
+    
+    show Sam happy at left
+    
+    s "Yeah."
+    
+    show Cynthia happy at right
+    
+    c "It'll be fun to be in a club with you!"
+    
+    show Cynthia neutral at right
+    show Bella closed
+
+    b "Anyways, we could all walk to school together tomorrow since we all live fairly close! That way, we can get to know each other better! How does that sound?"
+    
+    show Sam talking at left
+
+    s "Yeah. Also, is it okay if I bring a plus one?"
+    
+    show Bella happy
+    
+    b "Sure! Are you bringing along a friend?"
+    
+    show Sam happy at left
+    
+    s "Yeah, his name's Ari, he's a junior that also lives near here. I just met him."
+    
+    show Bella surprised
+    
+    b "Ari as in Ari Kagawa?"
+    
+    show Sam surprised at left
+    
+    s "You know him?"
+    
+    show Bella talking
+    
+    b "He's the other person my teacher recommended to join us."
+    
+    show Sam happy at left
+    
+    s "Really?"
+    
+    show Bella closed
+    
+    b "That's convenient that you also met him. Even more so that we all live close by."
+    
+    show Sam neutral at left
+    
+    s "Alright then!"
+    
+    show Bella happy
+
+    b "That makes four of us. We can now be an official club!"
+
+    show Sam talking at left
+    
+    s "You told me that all I have to do is just show up, but..."
+    
+    s "What are we doing in our club exactly?"
+    
+    show Bella closed
+    
+    b "I can't tell you everything, yet! You'll love it, trust me!"
+    
+    show Sam embarrassed at left
+    
+    s "What?!"
+    
+    b "I have a sense of what to plan, but what we're doing is that we just hang out and have fun!"
+    
+    b "The main thing is that I've brought the four of us together to help each other with school, hopefully become great friends, and enjoy school."
+    
+    c "Don't worry, whatever it is, it'll be fun with you!"
+    
+    show Bella happy
+
+    b "Well then, I'll see you guys tomorrow morning!"
+    
+    show Cynthia surprised at right
+    
+    c "I'll look forward to it!"
+
+    hide Bella happy
+    hide Cynthia surprised at right
+
+    "Bella and Cynthia part their separate ways for now."
+    
+    show Sam neutral at left
+
+    s "*sigh*Okay. I guess I'll see you tomorrow."
+
+    "I wave after them."
+
+    hide Sam neutral at left
+    #stop music fadeout 1.0
+    #play music maintheme loop
+
+    "Somehow, I got wrapped into a small club by Bella and met two new interesting people. I guess I have something to do now after school."
+
+    "Even though I gave in to Bella to join the club."
+
+    show Bella neutral at left
+
+    "Bella..."
+
+    show Ari neutral
+
+    "Ari..."
+
+    show Cynthia neutral at right
+
+    "Cynthia..."
+
+    "These are three people I know best right now at my first year of high school. In a way, it's kinda pathetic I don't know that many people in school, but I hope that it'll be a good first year."
+    
+    "I've always disliked school in some ways, but if there's anything that makes it bearable to some degree it's being able to hang out with friends there."
+    
+    "Now that I can make close friends there, I guess I'm now more motivated to go."
+
+    "I'm pretty close to Bella already, but I have want to get closer to Ari and Cynthia, to be close friends."
+    
+    "I've had no problems making friends, but I want to become really close friends with them."
+    
+    "I want to be able to maybe even become life-long friends with them, but I have to admit..."
+    
+    "I'm...afraid."
+    
+    "Afraid to be able to make such a close relationship, even with my closest friend, Bella."
+    
+    "That level of trust, respect, and closeness..."
+    
+    "...is just something I can only dream about and see and movies."
+    
+    "This is something I have never admitted to anyone, but myself."
+    
+    hide Bella neutral at left
+    hide Ari neutral
+    hide Cynthia neutral at right
+
+    "The feeling of hope is warm, but then the thought of reality stings of how boring and dissappointing everything could be."
+    
+    "I'm willing to try, but I fear that everything might not be as it should be or good enough."
+
+    "Who knows, maybe something incredible might happen or it might be completely bad."
+    
+    "This is where I need you."
+    
+    "I wish to be great friends with all of them, but I'm too scared and too pathetic to do this myself."
+    
+    "I want the courage to be closer to them. Even my closest friend, Bella."
+    
+    "Give me the courage that I need."
+    
+    #stop music fadeout 1.0
+
+    with dissolve
+    with fade
